@@ -27,7 +27,7 @@ Führe den Auftrag mit der angegebenen Datei und den dokumentierten Versionen au
 
 ## 4. Eine zweite Person erproben lassen
 
-Eine Person, die den Ablauf nicht selbst geschrieben hat, sollte ihn nachvollziehen. Prüfe dabei auch Links, Menüzuordnung und Rücksetzweg. Die [Vorlagen](https://schulungen.svws-nrw.de/schulungsmodule/vorlagen.html) helfen bei konsistenten Materialien.
+Eine Person, die den Ablauf nicht selbst geschrieben hat, sollte ihn nachvollziehen. Prüfe dabei auch Links, Menüzuordnung und Rücksetzweg. Die [Vorlagen](./vorlagen.md) helfen bei konsistenten Materialien.
 
 ## 5. Erkenntnisse dauerhaft sichern
 

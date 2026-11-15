@@ -47,6 +47,11 @@
         "description": "Ergebnisse sichern und den Raum übergeben."
       },
       {
+        "text": "Schulungsvorlagen",
+        "link": "/moderation/vorlagen",
+        "description": "Vorlagen für Ablauf, Aufgaben und Moderationsmaterial."
+      },
+      {
         "text": "Material weiterentwickeln",
         "link": "/moderation/material-pflegen",
         "description": "Erprobte Aufgaben und Anleitungen pflegen."
