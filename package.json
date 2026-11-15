@@ -3,32 +3,28 @@
   "name": "@svws-nrw/svws-team",
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "serve": "vitepress serve",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
-    "docs:check-structure": "node scripts/check-structure.mjs",
-    "docs:check-navigation": "node --test tests/*.test.mjs",
-    "docs:check-built": "node scripts/check-built.mjs",
-    "docs:check": "npm run docs:check-structure && npm run docs:check-navigation && npm run docs:build && npm run docs:check-built"
+    "test": "node --test scripts/*.test.mjs",
+    "docs:check": "node scripts/check-site.mjs",
+    "docs:check-browser": "node scripts/browser.mjs",
+    "docs:check-structure": "node scripts/check-structure.mjs"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0",
     "markdown-it-task-lists": "^2.1.1",
     "vitepress": "^1.6.4",
-    "markdown-it-container": "^4.0.0"
-  },
-  "dependencies": {
-    "vitepress-mermaid-renderer": "^1.2.2"
+    "markdown-it-container": "^4.0.0",
+    "playwright": "1.56.1"
   },
   "engines": {
-    "node": ">=24 <25"
+    "node": ">=22 <25"
   },
   "overrides": {
     "vitepress": {
       "vite": "6.4.5"
     }
-  }
+  },
+  "license": "CC0-1.0",
+  "version": "1.0.0"
 }

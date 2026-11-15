@@ -1,0 +1,35 @@
+name: Dokumentation prüfen
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [dev, master]
+permissions:
+  contents: read
+env:
+  NODE_OPTIONS: --max-old-space-size=6144
+jobs:
+  docs-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run docs:check-structure
+      - run: npm test
+      - name: Schulungswerkzeuge prüfen
+        run: python3 scripts/check-training-scripts.py
+      - run: npm run docs:build
+      - run: npm run docs:check
+      - name: Projektpfad bauen und prüfen
+        env:
+          DOCS_BASE: /SVWS-Team/
+        run: npm run docs:build && npm run docs:check
+      - uses: actions/upload-artifact@v7
+        with:
+          name: gepruefte-dokumentation
+          path: .vitepress/dist
+          include-hidden-files: true

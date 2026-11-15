@@ -3,7 +3,7 @@ import { resolve } from 'node:path'
 
 const root = resolve(import.meta.dirname, '..')
 const read = p => JSON.parse(readFileSync(resolve(root, p), 'utf8'))
-const nav = read('.vitepress/sidebar.json')
+const nav = read('.vitepress/navigation.json')
 const pkg = read('package.json')
 const lock = read('package-lock.json')
 const errors = []
@@ -47,7 +47,7 @@ for (const [section, items] of Object.entries(sections)) walk(items, section)
 for (const [prefix, section] of routes) {
   if (!sections[section]) errors.push(`Unbekannter Bereich ${section} für ${prefix}`)
 }
-for (const required of ["team","schulungen","testdaten","beratung","fortbildung","wissen"]) {
+for (const required of ["team","schulungen","testdaten","beratung","fortbildung","wissen","hilfe"]) {
   if (!sections[required]) errors.push(`Fehlender Navigationsbereich: ${required}`)
 }
 // Generated section wrappers add one shared heading, not another topic level.

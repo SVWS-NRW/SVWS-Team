@@ -27,7 +27,7 @@ export function sequence(navigation, topic) {
   if (topic?.readingOrder === 'none') return []
   const seen = new Set()
   return [topic, ...topic?.items ?? []].filter(item => {
-    if (!item?.link || item.link.includes('#')) return false
+    if (!item?.link || item.link.includes('#') || item.link.startsWith('/druck/')) return false
     const target = clean(item.link)
     if (sectionFor(navigation, target) !== sectionFor(navigation, topic.link ?? item.link) || seen.has(target)) return false
     if (item !== topic && item.items?.length) return false
