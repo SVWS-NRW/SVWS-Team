@@ -12,15 +12,15 @@ Hier findest Du die Datenbanken zu den Schulungsmodulen. Die Tabellen nennen vor
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [gs_2026_1.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1.sqlite) | Grunddatenstand 2026/2027. |
-| [gs_2026_2.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2.sqlite) | Grunddatenstand 2026/2027. |
+| [gs_2026_1.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1.sqlite) | Grunddatenstand 2026/2027. |
+| [gs_2026_2.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2.sqlite) | Grunddatenstand 2026/2027. |
 
 ## Grundschule Zeugnisse {#grundschule-zeugnisse}
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [gs_2026_1_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
-| [gs_2026_2_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
+| [gs_2026_1_mitLeistungsdaten.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
+| [gs_2026_2_mitLeistungsdaten.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
 
 ## Sekundarstufe I {#sekundarstufe-i}
 
@@ -32,29 +32,29 @@ Hier findest Du die Datenbanken zu den Schulungsmodulen. Die Tabellen nennen vor
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [GOSt_DB_1-3.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_1-3.zip) | DB-1: EF vorbereiten; DB-2: Fachwahlen und Blockung; DB-3: Blockungen mit Fehlern. |
+| [GOSt_DB_1-3.zip](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_1-3.zip) | DB-1: EF vorbereiten; DB-2: Fachwahlen und Blockung; DB-3: Blockungen mit Fehlern. |
 
 ## Sekundarstufe II - Q1/Q2 und Abitur {#oberstufe-qphase}
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [GOSt_DB_1-3.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_1-3.zip) | Laufbahn- und Blockungsstände; für Q1 ggf. Arbeitsfortschritt aus dem EF-Modul ergänzen. |
+| [GOSt_DB_1-3.zip](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_1-3.zip) | Laufbahn- und Blockungsstände; für Q1 ggf. Arbeitsfortschritt aus dem EF-Modul ergänzen. |
 
 ## Sekundarstufe II - Klausurplanung {#klausurplanung}
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [GOSt_DB_4.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_4.zip) | DB-4 für Klausurplanung; Abschnitt und vorbereitete Stundenplandaten abgleichen. |
-| [GOSt_DB-4-KlausurplanungEF2.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/GOSt_DB-4-KlausurplanungEF2.zip) | Früherer Übungsstand für Klausurplanung in EF2. |
+| [GOSt_DB_4.zip](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/GOSt_DB_4.zip) | DB-4 für Klausurplanung; Abschnitt und vorbereitete Stundenplandaten abgleichen. |
+| [GOSt_DB-4-KlausurplanungEF2.zip](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB/GOSt_DB-4-KlausurplanungEF2.zip) | Früherer Übungsstand für Klausurplanung in EF2. |
 
 ## Sekundarstufe II - Laufbahnplanung {#laufbahndaten}
 
 | Datenbank | Kurzbeschreibung |
 | --- | --- |
-| [Import_Lupo_Kurs_Beispieldateien.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/Import_Lupo_Kurs_Beispieldateien.zip) | Beispielpaket für den Laufbahndatenimport; teilweise Stand 2023/2024. |
-| [1_fobi_vor_lupImport.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/1_fobi_vor_lupImport.sqlite) | Ausgangsdatei vor dem LuPO-Import |
-| [2_fobi_vor_lupImport_nachEKorrektur.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/2_fobi_vor_lupImport_nachEKorrektur.sqlite) | Vorhandener alternativer Zwischenstand nach E-Korrektur |
-| [Gym_23_24_2.mdb](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/Gym_23_24_2.mdb) | SchILD2-Ausgangsbestand für die zugehörigen Beispiele |
+| [Import_Lupo_Kurs_Beispieldateien.zip](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/Import_Lupo_Kurs_Beispieldateien.zip) | Beispielpaket für den Laufbahndatenimport; teilweise Stand 2023/2024. |
+| [1_fobi_vor_lupImport.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/1_fobi_vor_lupImport.sqlite) | Ausgangsdatei vor dem LuPO-Import |
+| [2_fobi_vor_lupImport_nachEKorrektur.sqlite](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/2_fobi_vor_lupImport_nachEKorrektur.sqlite) | Vorhandener alternativer Zwischenstand nach E-Korrektur |
+| [Gym_23_24_2.mdb](https://github.com/SVWS-NRW/SVWS-Team/raw/refs/heads/dev/Datenbanken/GOSt-DB/Import_LUPO_KURS/Gym_23_24_2.mdb) | SchILD2-Ausgangsbestand für die zugehörigen Beispiele |
 
 ## Berufskolleg {#berufskolleg}
 
