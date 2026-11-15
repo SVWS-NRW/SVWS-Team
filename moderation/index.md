@@ -15,7 +15,7 @@ Die [Schulungsmodule](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule
 
 ## Raum und Technik abstimmen
 
-Die [Schulungsumgebung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/) liegt gemeinsam mit Testumgebung und Datenbanken unter **Datenbanken & Installation**. Dort wählen Stützpunktleitung und Moderation den Aufbau für vorhandene Raum-PCs oder mitgebrachte Laptops.
+Die [Schulungsumgebung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/) ist direkt im Menü der Rubrik **Moderation** erreichbar. Dort wählen Stützpunktleitung und Moderation den Aufbau für vorhandene Raum-PCs oder mitgebrachte Laptops.
 
 ## Auf dem Laufenden bleiben
 

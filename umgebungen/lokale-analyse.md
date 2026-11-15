@@ -14,7 +14,7 @@
 
 Du kannst den beschriebenen Fehler reproduzieren und Deine Beobachtungen nachvollziehbar weitergeben. Benötigt werden ein [vorbereiteter Testplatz](/beratung/arbeitsplatz), ein klarer Auftrag und die [abgestimmt übertragene Sicherung](/Datenbanken/problemdatenbanken).
 
-Dieser Artikel gehört zum Arbeitsablauf der Fachberatung. Die technischen Einrichtungsverfahren liegen zentral unter [Datenbanken & Installation](/technik/).
+Dieser Artikel gehört zum Arbeitsablauf der Fachberatung. Die technischen Einrichtungsverfahren findest Du unter [Arbeitsplatz vorbereiten](/beratung/arbeitsplatz).
 
 ## 1. Fall und Ausgangsdatei dokumentieren
 

@@ -38,7 +38,7 @@ try{
   const response=await page.goto(base+route,{waitUntil:'networkidle'})
   assert.equal(response.status(),200,route)
  }
- const headings=project.repo.endsWith('SVWS-Schulungen')?['Arnsberg','Detmold','Düsseldorf','Köln','Münster','Hilfe']:['Neu im Team','Fachberatung','Moderation','Datenbanken & Installation','Fortbildung','Wissen & Links','Hilfe']
+ const headings=project.repo.endsWith('SVWS-Schulungen')?['Arnsberg','Detmold','Düsseldorf','Köln','Münster','Hilfe']:['Neu im Team','Fachberatung','Moderation','Datenbanken','Fortbildung','Wissen & Links','Hilfe']
  await page.setViewportSize({width:1440,height:900})
  await view('/')
  for(const [label,route] of [['Impressum','impressum'],['Datenschutzerklärung','datenschutz'],['Barrierefreiheitserklärung','barrierefreiheit'],['Leichte Sprache','leichtesprache'],['Lizenz','LICENSE']]){
@@ -68,13 +68,26 @@ try{
    assert.equal((await sidebar.locator('.VPSidebarItem.level-0 > .item').innerText()).trim(),'Neu im Team')
    assert.deepEqual(entries,['Rubrik drucken','Erste Schritte','Kommunikation','Zusammenarbeit'])
   }
-  if(section.link==='/technik/'){
-   assert.deepEqual(entries,['Rubrik drucken','Übersicht','Datenbanken','Testumgebung','Schulungsumgebung','Ergänzende Installationsbilder'])
+  if(section.link==='/Datenbanken/'){
+   assert.deepEqual(entries,['Rubrik drucken','Übersicht','Testdatenbanken','Schulungsdatenbanken','Problemdatenbanken'])
   }
  }
  await view('/moderation/')
  const sidebarLinks=await page.locator('#VPSidebarNav a').allTextContents()
  assert.deepEqual(sidebarLinks.slice(0,6).map(text=>text.trim()),['Rubrik drucken','Übersicht','Schulung vorbereiten','Schulung durchführen','Schulung nachbereiten','Material weiterentwickeln'])
+ await view('/beratung/arbeitsplatz.html')
+ const workplace=page.locator('#VPSidebarNav .VPSidebarItem.level-1').filter({has:page.getByRole('link',{name:'Arbeitsplatz vorbereiten',exact:true})})
+ const children=(await workplace.locator('.VPSidebarItem.level-2 > .item a').allTextContents()).map(text=>text.trim())
+ assert.deepEqual(children,['Testumgebung','Ergänzende Installationsbilder'])
+ await view('/moderation/')
+ const moderation=(await page.locator('#VPSidebarNav .VPSidebarItem.level-1 > .item a').allTextContents()).map(text=>text.trim())
+ assert.equal(moderation.at(-1),'Schulungsumgebung')
+ for(const [route,section] of [['/umgebungen/einrichten.html','Fachberatung'],['/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/','Fachberatung'],['/Fachberatung_Anleitungen/Test-_und_Schulungsserver/','Moderation']]){
+  await view(route)
+  assert.deepEqual((await page.locator('.VPNavBarMenu > a.active').allTextContents()).map(text=>text.trim()),[section],route)
+ }
+ await view('/technik/')
+ await page.waitForURL('**/Datenbanken/')
  const article='/hilfe/github-editor.html'
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:900})

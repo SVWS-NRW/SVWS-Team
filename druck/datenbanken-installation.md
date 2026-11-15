@@ -1,5 +1,5 @@
 ---
-title: Datenbanken & Installation – Druckansicht
+title: Datenbanken – Druckansicht
 search: false
 outline: false
 prev: false
@@ -10,6 +10,6 @@ next: false
 import { data } from './datenbanken-installation.data.mjs'
 </script>
 
-# Datenbanken & Installation – Druckansicht
+# Datenbanken – Druckansicht
 
 <SectionPrintBook :articles="data.articles" :title="data.title" />
