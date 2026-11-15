@@ -49,6 +49,14 @@ try{
   await view('/')
  }
  assert.deepEqual((await page.locator('.VPNavBarMenu > a').allTextContents()).map(text=>text.trim()),headings)
+ assert.equal((await page.locator('.VPNavBarTitle .title').innerText()).trim(),'SVWS-Team')
+ for(const section of navigation.nav){
+  await view(section.link)
+  assert.equal((await page.locator('#VPSidebarNav a').first().innerText()).trim(),'Rubrik drucken',section.text)
+ }
+ await view('/moderation/')
+ const sidebarLinks=await page.locator('#VPSidebarNav a').allTextContents()
+ assert.deepEqual(sidebarLinks.slice(0,6).map(text=>text.trim()),['Rubrik drucken','Übersicht','Schulung vorbereiten','Schulung durchführen','Schulung nachbereiten','Material weiterentwickeln'])
  const article='/hilfe/github-editor.html'
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:900})
