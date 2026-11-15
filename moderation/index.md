@@ -11,7 +11,7 @@ Hier findest Du den Weg von der ersten Planung bis zur Nachbereitung einer Schul
 
 ## Das passende Material wählen
 
-Die [Schulungsmodule](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule/) enthalten die vorhandenen Aufgaben und Moderationsmaterialien. Die [Schulungsdatenbanken](/Datenbanken/schulungen/) ordnen dafür die Ausgangsstände ein. Nicht jede Aufgabenreihe hat bereits eine eindeutig dokumentierte Datenbankzuordnung; prüfe die Hinweise vor dem Termin.
+Die [Schulungsmodule](https://schulungen.svws-nrw.de/schulungsmodule/) enthalten die vorhandenen Aufgaben und Moderationsmaterialien. Die [Schulungsdatenbanken](/Datenbanken/schulungen/) ordnen dafür die Ausgangsstände ein. Nicht jede Aufgabenreihe hat bereits eine eindeutig dokumentierte Datenbankzuordnung; prüfe die Hinweise vor dem Termin.
 
 ## Raum und Technik abstimmen
 

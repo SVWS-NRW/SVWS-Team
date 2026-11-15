@@ -26,4 +26,4 @@ Für die praktische Arbeit: [Passenden Lernweg wählen](/fortbildung/lernwege). 
 + [Download **SVWS-Server**](https://github.com/SVWS-NRW/SVWS-Server/releases)
 + [Download **SchILD3-Version**](https://github.com/SVWS-NRW/Schild3-BetaTest/releases)
 + [Download **SchILD3-Basisreportsammlung**](https://github.com/SVWS-NRW/Schild-NRW-3-Reports/releases)
-+ [Wiki-**Anleitung zu Reports**](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Reportdesigner_-_Schnelleinstieg)
++ [Wiki-**Anleitung zu Reports**](https://schild3.svws-nrw.de/reporting/reportdesigner/reportdesigner-schnelleinstieg.html)

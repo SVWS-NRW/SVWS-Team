@@ -31,6 +31,6 @@ Beginne mit einer konkreten Aufgabe und einem überschaubaren öffentlichen Test
 
 ## Oberstufe, Reporting oder Tools vertiefen
 
-Wähle ein konkretes [Schulungsmodul](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule/) und die dafür nötige Datenbasis. Die [SVWS-Handbücher](https://doku.svws-nrw.de/) erläutern die Programmbedienung; eine ältere Fortbildungsagenda enthält diese Schritte nicht automatisch.
+Wähle ein konkretes [Schulungsmodul](https://schulungen.svws-nrw.de/schulungsmodule/) und die dafür nötige Datenbasis. Die [SVWS-Handbücher](https://doku.svws-nrw.de/) erläutern die Programmbedienung; eine ältere Fortbildungsagenda enthält diese Schritte nicht automatisch.
 
 Wenn Du trotz der Unterlagen nicht weiterkommst, beschreibe die konkrete Handlung und den fehlenden Schritt über die [Teamkommunikation](/neu-im-team/kommunikation).

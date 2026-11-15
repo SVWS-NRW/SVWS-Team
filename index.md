@@ -66,7 +66,7 @@ Die Tabelle wird aus den vorhandenen datierten [SchILD- und SVWS-Tipps](/wissen/
 
 ## Verlässliche Quellen nutzen
 
-Dieses Portal beschreibt Arbeitsabläufe für Fachberatung und Moderation. Die ausführliche Programmbedienung und Installation bleiben in den zuständigen Wikis und Handbüchern. [Wichtige Links](/wissen/links) erschließt diese Quellen; die [Umstiegsorientierung](/wissen/umstieg) hilft beim Vergleich SchILD2/SchILD3.
+Dieses Portal beschreibt Arbeitsabläufe für Fachberatung und Moderation. Die ausführliche Programmbedienung und Installation bleiben in den zuständigen Dokumentationen. [Wichtige Links](/wissen/links) erschließt diese Quellen; die [Umstiegsorientierung](/wissen/umstieg) hilft beim Vergleich SchILD2/SchILD3.
 
 ## Wissen gemeinsam pflegen
 

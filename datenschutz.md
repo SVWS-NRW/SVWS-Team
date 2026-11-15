@@ -1,6 +1,6 @@
 # Datenschutzerklärung
 
-Diese Hinweise beziehen sich auf SVWS Team-Hub auf [GitHub Pages](https://svws-nrw.github.io/SVWS-Team/).
+Diese Hinweise beziehen sich auf SVWS Team-Hub unter [team.svws-nrw.de](https://team.svws-nrw.de/).
 
 ## Verantwortliche Stelle und Kontakt
 

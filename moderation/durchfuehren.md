@@ -12,7 +12,7 @@ Nenne Lernziel und Ablauf. Zeige, wie Aufgaben, Hilfen und Dokumentation erreich
 
 Erkläre zuerst die fachliche Absicht und das erwartete Ergebnis. Zeige nur die Orientierung, die für den Einstieg benötigt wird. Lass die Teilnehmenden die Handlung anschließend selbst durchführen.
 
-Nutze die vorhandenen [Module](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule/). Für Bedienungsdetails verweise auf das passende Wiki-Kapitel, statt in jedem Material eine zweite vollständige Programmdokumentation aufzubauen.
+Nutze die vorhandenen [Module](https://schulungen.svws-nrw.de/schulungsmodule/). Für Bedienungsdetails verweise auf das passende Kapitel der SchILD-Doku, statt in jedem Material eine zweite vollständige Programmdokumentation aufzubauen.
 
 ## 3. Lernfortschritt sichtbar machen
 

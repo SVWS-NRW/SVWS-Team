@@ -4,15 +4,15 @@ Sie können Fehler berichtigen und Anleitungen ergänzen, ohne etwas auf Ihrem C
 
 ## Den passenden Bearbeitungsweg wählen
 
-- [Mit dem GitHub-Editor bearbeiten](https://svws-nrw.github.io/SVWS-Team/hilfe/github-editor.html): für eine einzelne Datei und kleine Textkorrekturen.
-- [Mit VS Code im Browser bearbeiten](https://svws-nrw.github.io/SVWS-Team/hilfe/vscode-editor.html): für längere Änderungen und die Arbeit an mehreren Dateien.
-- [Redaktionsworkflow](https://svws-nrw.github.io/SVWS-Team/hilfe/redaktionsworkflow.html): verbindliche Regeln für Arbeitsbranches, Prüfung, Freigabe und Veröffentlichung.
-- [Artikel schreiben](https://svws-nrw.github.io/SVWS-Team/hilfe/artikel-schreiben.html): verständliche Texte aufbauen und fachliche Inhalte erhalten.
-- [Markdown und Gestaltung](https://svws-nrw.github.io/SVWS-Team/hilfe/markdown-und-gestaltung.html): Überschriften, Listen, Links und Bilder einfügen.
+- [Mit dem GitHub-Editor bearbeiten](https://team.svws-nrw.de/hilfe/github-editor.html): für eine einzelne Datei und kleine Textkorrekturen.
+- [Mit VS Code im Browser bearbeiten](https://team.svws-nrw.de/hilfe/vscode-editor.html): für längere Änderungen und die Arbeit an mehreren Dateien.
+- [Redaktionsworkflow](https://team.svws-nrw.de/hilfe/redaktionsworkflow.html): verbindliche Regeln für Arbeitsbranches, Prüfung, Freigabe und Veröffentlichung.
+- [Artikel schreiben](https://team.svws-nrw.de/hilfe/artikel-schreiben.html): verständliche Texte aufbauen und fachliche Inhalte erhalten.
+- [Markdown und Gestaltung](https://team.svws-nrw.de/hilfe/markdown-und-gestaltung.html): Überschriften, Listen, Links und Bilder einfügen.
 
 Ein **Branch** ist ein eigener Arbeitsstand. Speichern Sie Ihre Änderungen in einem neuen Branch mit Ihrem Autorennamen, etwa `musterfrau/filter-erklaeren`. Ein **Commit** hält die Änderung mit einer kurzen Erläuterung fest; **Push** überträgt sie zu GitHub. Mit einem **Pull Request** reichen Sie diesen Arbeitsstand zur Prüfung gegen `dev` ein. Eine Administratorin oder ein Administrator prüft den Vorschlag und übernimmt ihn nach Freigabe. Schreiben Sie deshalb nicht direkt in `dev` oder `master`.
 
-Unter [Alle Artikel A–Z](https://svws-nrw.github.io/SVWS-Team/hilfe/alle-artikel.html) finden Sie auch Seiten, deren genaue Menüposition Sie nicht kennen. Öffnen Sie zuerst den Artikel und verwenden Sie dann dessen Stift- oder VS-Schaltfläche. Die alphabetische Liste wird automatisch aus den Artikeln erstellt.
+Unter [Alle Artikel A–Z](https://team.svws-nrw.de/hilfe/alle-artikel.html) finden Sie auch Seiten, deren genaue Menüposition Sie nicht kennen. Öffnen Sie zuerst den Artikel und verwenden Sie dann dessen Stift- oder VS-Schaltfläche. Die alphabetische Liste wird automatisch aus den Artikeln erstellt.
 
 Die folgenden Abschnitte richten sich an Personen, die lokal an Texten, Menüführung oder Gestaltung arbeiten. Bearbeitet werden Markdown-Dateien direkt; ein Wiki-Konverter ist nicht erforderlich.
 
@@ -62,7 +62,7 @@ Den Artikel außerdem in der lokalen Vorschau gegenlesen und Bilder, Verweise un
 2. Den Branch nach GitHub pushen und einen Pull Request gegen `dev` öffnen.
 3. Im Pull Request kurz erklären, was geändert wurde, worauf fachliche Änderungen beruhen und was geprüft wurde.
 4. Die automatischen Prüfungen abwarten und gegebenenfalls Fehler beheben.
-5. Die [Freigabe- und Merge-Regeln](https://svws-nrw.github.io/SVWS-Team/hilfe/redaktionsworkflow.html#freigabe-und-merge-nach-dev) einhalten. Nur veröffentlichungsfähige Änderungen nach `dev` übernehmen.
+5. Die [Freigabe- und Merge-Regeln](https://team.svws-nrw.de/hilfe/redaktionsworkflow.html#freigabe-und-merge-nach-dev) einhalten. Nur veröffentlichungsfähige Änderungen nach `dev` übernehmen.
 
 `dev` und `master` werden nicht direkt beschrieben. Den Merge übernimmt der Verantwortliche. Fehler oder fachliche Ergänzungsvorschläge können auch über **Issues** im Repository dieser Dokumentation gemeldet werden. Sie erreichen es über das GitHub-Symbol im Kopfmenü.
 
@@ -72,4 +72,4 @@ Druckansichten entstehen aus Originalartikeln und Menüdaten. Ein Menüaufruf ö
 
 Für Unterpfade `DOCS_BASE` setzen und eigene Vue-Komponenten mit `withBase()` verlinken. Kein `localhost` in veröffentlichte Artikel oder Menüdaten schreiben. Normale Pflege benötigt keine Python- oder Pandoc-Installation.
 
-Neue Aufgaben beginnen im offiziellen Repository vom aktuellen `origin/dev`. Frühere Migrationsrepositories dienen nicht als Grundlage neuer Änderungen. Redaktionelle Pull Requests richten sich gegen `dev`; die vollständigen Regeln stehen im [Redaktionsworkflow](https://svws-nrw.github.io/SVWS-Team/hilfe/redaktionsworkflow.html).
+Neue Aufgaben beginnen im offiziellen Repository vom aktuellen `origin/dev`. Frühere Migrationsrepositories dienen nicht als Grundlage neuer Änderungen. Redaktionelle Pull Requests richten sich gegen `dev`; die vollständigen Regeln stehen im [Redaktionsworkflow](https://team.svws-nrw.de/hilfe/redaktionsworkflow.html).

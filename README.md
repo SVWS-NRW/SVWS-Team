@@ -3,7 +3,7 @@
 Arbeitsunterlagen für Fachberatung und Moderation rund um SchILD-NRW und SVWS. Hier findest Du auch Testdaten, Hinweise zur Einrichtung und Fortbildungsmaterial.
 
 - [Offizielles Repository](https://github.com/SVWS-NRW/SVWS-Team)
-- [Dokumentation auf GitHub Pages](https://svws-nrw.github.io/SVWS-Team/)
+- [Dokumentation](https://team.svws-nrw.de/)
 
 ## Lokal ansehen
 

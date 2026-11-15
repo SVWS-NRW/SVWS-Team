@@ -1,6 +1,6 @@
 # Erklärung zur Barrierefreiheit
 
-Diese Erklärung bezieht sich auf SVWS Team-Hub auf [GitHub Pages](https://svws-nrw.github.io/SVWS-Team/). Maßstab sind das Behindertengleichstellungsgesetz Nordrhein-Westfalen und die Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen.
+Diese Erklärung bezieht sich auf SVWS Team-Hub unter [team.svws-nrw.de](https://team.svws-nrw.de/). Maßstab sind das Behindertengleichstellungsgesetz Nordrhein-Westfalen und die Barrierefreie-Informationstechnik-Verordnung Nordrhein-Westfalen.
 
 ## Stand der Vereinbarkeit
 

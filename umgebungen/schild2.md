@@ -6,7 +6,7 @@ Du kannst einen SchILD2-Ausgangsbestand öffnen, seinen Zustand prüfen und die 
 
 ## 1. Den SchILD2-Arbeitsplatz vorbereiten
 
-Beschaffe SchILD-NRW 2 und ergänzende Werkzeuge über die offiziellen [Downloads und Wikis](/wissen/links). Richte eine eigene Testinstallation und eine Kopie des Ausgangsbestands ein. Dokumentiere Programmversion und Verbindung, damit Du nicht versehentlich den Schulbestand öffnest.
+Beschaffe SchILD-NRW 2 und ergänzende Werkzeuge über die offiziellen [Downloads und Dokumentationen](/wissen/links). Richte eine eigene Testinstallation und eine Kopie des Ausgangsbestands ein. Dokumentiere Programmversion und Verbindung, damit Du nicht versehentlich den Schulbestand öffnest.
 
 Öffne zunächst eine bekannte Testdatenbank. Prüfe Schulnummer, Schulform, Abschnitt und den benötigten Arbeitsablauf. Für einen konkreten Fall folgt die [geschützte Übernahme](../Datenbanken/problemdatenbanken.md).
 
@@ -18,7 +18,7 @@ Beschaffe SchILD-NRW 2 und ergänzende Werkzeuge über die offiziellen [Download
 | Eine SchILD2-Datenbank in das SVWS-Datenmodell übernehmen | SVWS-AdminClient; Ergebnis ist ein SVWS-Schema in MariaDB |
 | Ein vorhandenes SVWS-Backup wiederherstellen | SQLite-Import im AdminClient; keine erneute SchILD2-Migration |
 
-Das SchILD2-Migrationstool findest Du unter den [offiziellen SchILD-NRW-Tools](https://www.svws.nrw.de/schild-nrw-2/tools-module). Lies die zum Paket gehörende Dokumentation. Das Konfigurationsprogramm selbst überträgt keine Daten. Das SchILD2-Werkzeugpaket kann mit **SchILD_DBConfig** Quell- und Zielkonfigurationen für das Migrationstool erzeugen; bei SchILD-NRW 3 wird damit die Arbeitsplatzverbindung eingerichtet. Beachte jeweils das Werkzeugpaket und Dateiformat. Die [SchILD2-Wiki-Anleitung](https://wiki.svws.nrw.de/mediawiki/index.php?title=Schild-NRW-Daten_in_eine_andere_Datenbank_%C3%BCbertragen_(migrieren)) beschreibt den dokumentierten Ablauf.
+Das SchILD2-Migrationstool findest Du unter den [offiziellen SchILD-NRW-Tools](https://www.svws.nrw.de/schild-nrw-2/tools-module). Lies die zum Paket gehörende Dokumentation. Das Konfigurationsprogramm selbst überträgt keine Daten. Das SchILD2-Werkzeugpaket kann mit **SchILD_DBConfig** Quell- und Zielkonfigurationen für das Migrationstool erzeugen; bei SchILD-NRW 3 wird damit die Arbeitsplatzverbindung eingerichtet. Beachte jeweils das Werkzeugpaket und Dateiformat. Die [SchILD2-Anleitung](https://schild2.svws-nrw.de/administration/datenbanken/schild-nrw-daten-in-eine-andere-datenbank-uebertragen-migrieren.html) beschreibt den dokumentierten Ablauf.
 
 ## 3. Einen Migrationsversuch vorbereiten
 

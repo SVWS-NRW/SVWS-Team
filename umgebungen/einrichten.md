@@ -2,7 +2,7 @@
 
 ## Ziel und Voraussetzungen
 
-Du richtest einen persönlichen Testplatz mit SVWS-Server, SchILD-NRW 3 und den benötigten Werkzeugen ein. **Die eigentliche Installation erfolgt nach der aktuellen Wiki- bzw. Herstelleranleitung.** Hier findest Du Reihenfolge, Entscheidungen und Kontrollen.
+Du richtest einen persönlichen Testplatz mit SVWS-Server, SchILD-NRW 3 und den benötigten Werkzeugen ein. **Die eigentliche Installation erfolgt nach der aktuellen SchILD3-Doku bzw. Herstelleranleitung.** Hier findest Du Reihenfolge, Entscheidungen und Kontrollen.
 
 Prüfe zuerst die [Auswahl der Umgebung](./auswahl.md). Benötigt werden geeignete Hardware, die erforderlichen Rechte und ein dokumentierter Installationsstand. Verwende für die erste Probe öffentliche Testdaten.
 
@@ -11,10 +11,10 @@ Prüfe zuerst die [Auswahl der Umgebung](./auswahl.md). Benötigt werden geeigne
 | Aufgabe | Maßgebliche Anleitung |
 | --- | --- |
 | SVWS-Server unter Windows installieren | [SVWS-Dokumentation: Windows-Installer](https://doku.svws-nrw.de/deployment/Windows-Installer/) |
-| Windows-Einrichtung im bisherigen Wiki nachvollziehen | [Installation von SVWS-Server und SchILD-NRW 3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3) |
+| Windows-Einrichtung in der SchILD3-Doku nachvollziehen | [Installation von SVWS-Server und SchILD-NRW 3](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html) |
 | SchILD-NRW 3 verbinden | [SVWS-Dokumentation: SchILD-NRW 3](https://doku.svws-nrw.de/deployment/Schild-NRW3/) |
 | Linux oder Docker bewusst auswählen | [Offizielle Installationsmethoden](https://doku.svws-nrw.de/deployment/) |
-| Programme, Releases und weitere Wikis finden | [Wichtige Links](/wissen/links) |
+| Programme, Releases und weitere Dokumentationen finden | [Wichtige Links](/wissen/links) |
 
 Die neue Adresse der SchILD3-Dokumentation wird in der Linksammlung ergänzt, sobald sie verlässlich erreichbar ist. Eine erwartete Adresse ersetzt keine verfügbare Anleitung.
 
