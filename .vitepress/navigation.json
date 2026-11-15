@@ -7,25 +7,16 @@
         "description": "Alle Artikel der Rubrik als Druckansicht."
       },
       {
-        "text": "Übersicht",
+        "text": "Erste Schritte",
         "link": "/neu-im-team/"
       },
       {
-        "text": "Neu im Team",
-        "items": [
-          {
-            "text": "Erste Schritte",
-            "link": "/neu-im-team/"
-          },
-          {
-            "text": "Kommunikation",
-            "link": "/neu-im-team/kommunikation"
-          },
-          {
-            "text": "Zusammenarbeit",
-            "link": "/neu-im-team/rollen"
-          }
-        ]
+        "text": "Kommunikation",
+        "link": "/neu-im-team/kommunikation"
+      },
+      {
+        "text": "Zusammenarbeit",
+        "link": "/neu-im-team/rollen"
       }
     ],
     "schulungen": [
@@ -70,8 +61,7 @@
       {
         "text": "Übersicht",
         "link": "/technik/",
-        "description": "Datenbanken, Testumgebung und Schulungsumgebung im Überblick.",
-        "items": []
+        "description": "Datenbanken, Testumgebung und Schulungsumgebung im Überblick."
       },
       {
         "text": "Datenbanken",
@@ -132,54 +122,6 @@
             "text": "Warten und zurücksetzen",
             "link": "/umgebungen/wartung",
             "description": "Versionen, Sicherungen und Rückwege beherrschen."
-          },
-          {
-            "text": "Ergänzende Installationsbilder",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
-            "description": "Frühere Bildfolgen mit aktuellen Einstiegshinweisen.",
-            "collapsed": true,
-            "items": [
-              {
-                "text": "SVWS-AdminClient",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "DBeaver",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "Installationshandout",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "SchILD-NRW 3 installieren",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "SVWS-Server installieren",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "Zertifikat installieren",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "Logdateien",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              },
-              {
-                "text": "Sichten im SVWS-Client",
-                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/",
-                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-              }
-            ]
           }
         ]
       },
@@ -235,6 +177,54 @@
           }
         ],
         "description": "Räume mit vorhandenen PCs oder mitgebrachten Laptops vorbereiten und betreuen."
+      },
+      {
+        "text": "Ergänzende Installationsbilder",
+        "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
+        "description": "Frühere Bildfolgen mit aktuellen Einstiegshinweisen.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SVWS-AdminClient",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "DBeaver",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "Installationshandout",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "SchILD-NRW 3 installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "SVWS-Server installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "Zertifikat installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "Logdateien",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          },
+          {
+            "text": "Sichten im SVWS-Client",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/",
+            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+          }
+        ]
       }
     ],
     "beratung": [
