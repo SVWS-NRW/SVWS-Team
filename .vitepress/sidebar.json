@@ -1,0 +1,606 @@
+{
+  "sections": {
+    "team": [
+      {
+        "text": "Neu im Team",
+        "items": [
+          {
+            "text": "Erste Schritte",
+            "link": "/neu-im-team/"
+          },
+          {
+            "text": "Kommunikation",
+            "link": "/neu-im-team/kommunikation"
+          },
+          {
+            "text": "Zusammenarbeit",
+            "link": "/neu-im-team/rollen"
+          }
+        ]
+      }
+    ],
+    "schulungen": [
+      {
+        "text": "Übersicht",
+        "link": "/moderation/",
+        "description": "Einstieg in die Schulungsunterlagen."
+      }
+    ],
+    "testdaten": [
+      {
+        "text": "Übersicht",
+        "link": "/technik/",
+        "description": "Datenbanken, Testumgebung und Schulungsumgebung im Überblick.",
+        "items": []
+      },
+      {
+        "text": "Datenbanken",
+        "link": "/Datenbanken/",
+        "description": "Den passenden Datenbestand auswählen.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Testdatenbanken",
+            "link": "/Datenbanken/testdaten/",
+            "description": "Schulformen und besondere Testfälle."
+          },
+          {
+            "text": "Schulungsdatenbanken",
+            "link": "/Datenbanken/schulungen/",
+            "description": "Ausgangsstände nach Schulungsmodul."
+          },
+          {
+            "text": "Problemdatenbanken",
+            "link": "/Datenbanken/problemdatenbanken",
+            "description": "SQLite-Sicherungen geschützt austauschen."
+          }
+        ],
+        "readingOrder": "none"
+      },
+      {
+        "text": "Testumgebung",
+        "link": "/umgebungen/",
+        "description": "Den eigenen Beratungsarbeitsplatz vorbereiten.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Umgebung wählen",
+            "link": "/umgebungen/auswahl",
+            "description": "Rechner, vorhandenen Server oder VM passend auswählen."
+          },
+          {
+            "text": "PC oder Laptop einrichten",
+            "link": "/umgebungen/einrichten",
+            "description": "Einrichtung mit den aktuellen Wiki-Anleitungen."
+          },
+          {
+            "text": "SchILD2 und Migrationstool",
+            "link": "/umgebungen/schild2",
+            "description": "Ausgangsdaten prüfen und Migrationswege unterscheiden."
+          },
+          {
+            "text": "DBeaver und Access",
+            "link": "/umgebungen/dbeaver",
+            "description": "Verbindungen, Datenanalyse und Reparaturgrenzen."
+          },
+          {
+            "text": "Testdaten einspielen",
+            "link": "/umgebungen/testdaten",
+            "description": "Getrennte Schemata anlegen und fachlich prüfen."
+          },
+          {
+            "text": "Warten und zurücksetzen",
+            "link": "/umgebungen/wartung",
+            "description": "Versionen, Sicherungen und Rückwege beherrschen."
+          },
+          {
+            "text": "Ergänzende Installationsbilder",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
+            "description": "Frühere Bildfolgen mit aktuellen Einstiegshinweisen.",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "SVWS-AdminClient",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "DBeaver",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Installationshandout",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "SchILD-NRW 3 installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "SVWS-Server installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Zertifikat installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Logdateien",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Sichten im SVWS-Client",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Schulungsumgebung",
+        "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Arbeitsplätze & lokale VMs",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/",
+            "description": "Planung: vorhandene PCs oder mitgebrachte Laptops; Arbeitsplatz und Server-VM unterscheiden."
+          },
+          {
+            "text": "VirtualBox und Debian-VM",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/",
+            "description": "Lokaler Weg: Hypervisor auf Windows, Serverbetriebssystem in der VM; passende Netzmodi wählen."
+          },
+          {
+            "text": "Windows-Testserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/",
+            "description": "Lokaler Weg: SVWS-Server und MariaDB direkt auf Windows, SchILD-NRW 3 zusätzlich einrichten."
+          },
+          {
+            "text": "Docker-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/",
+            "description": "Zentral oder in einer VM: ein bewusst versioniertes Projekt aus SVWS-Server und MariaDB."
+          },
+          {
+            "text": "Proxmox-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/",
+            "description": "Raumserver: Gäste und Arbeitsplätze zuordnen; VM als Standard, LXC als eigene Alternative."
+          },
+          {
+            "text": "Proxmox installieren",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/",
+            "description": "Nur Hostadministration: Hypervisor, Storage und Netz vorbereiten; keine SVWS-Installation auf dem Host."
+          },
+          {
+            "text": "SVWS-Tools ergänzen",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/",
+            "description": "Benötigte Anwendungen ergänzen; statische Apps und zusätzliche Serverdienste unterscheiden."
+          },
+          {
+            "text": "Wartung & Rücksetzen",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+            "description": "Betrieb: einzelne Übungsstände wiederherstellen, Updates prüfen; historische Raumoberfläche einordnen."
+          },
+          {
+            "text": "Skripte & Prüfstatus",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
+            "description": "Gezielte Werkzeuge, Ausführungsorte, Parameter und belastbare Grenzen der Skriptprüfung."
+          }
+        ],
+        "description": "Räume mit vorhandenen PCs oder mitgebrachten Laptops vorbereiten und betreuen."
+      }
+    ],
+    "beratung": [
+      {
+        "text": "Übersicht",
+        "link": "/beratung/",
+        "description": "Den passenden Beratungsweg wählen."
+      },
+      {
+        "text": "Arbeitsplatz vorbereiten",
+        "link": "/beratung/arbeitsplatz",
+        "description": "Die persönliche Testumgebung zusammenstellen."
+      },
+      {
+        "text": "Supportfall bearbeiten",
+        "link": "/beratung/ablauf",
+        "description": "Von der Anfrage zum überprüften Ergebnis.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Erstgespräch",
+            "link": "/beratung/erstgespraech",
+            "description": "Anliegen und Umgebung verständlich erfassen."
+          },
+          {
+            "text": "Telefon und Fernhilfe",
+            "link": "/beratung/fernunterstuetzung",
+            "description": "Gemeinsam am Schulrechner eingrenzen."
+          },
+          {
+            "text": "Schulbesuch",
+            "link": "/beratung/schulbesuch",
+            "description": "Vorbereitung, Diagnose und Übergabe vor Ort."
+          },
+          {
+            "text": "Datenbankfall untersuchen",
+            "link": "/umgebungen/lokale-analyse",
+            "description": "Eine Kopie nachvollziehbar analysieren."
+          },
+          {
+            "text": "Ergebnis und Weitergabe",
+            "link": "/beratung/anfrage-vorbereiten",
+            "description": "Lösung prüfen oder Landesfachberatung einbeziehen."
+          }
+        ]
+      },
+      {
+        "text": "Installation und Migration",
+        "link": "/beratung/installation",
+        "description": "Schulinstallation begleiten und Umstieg eingrenzen.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Systemüberblick",
+            "link": "/beratung/systemueberblick",
+            "description": "Server, Datenhaltung und Anwendungen auseinanderhalten."
+          },
+          {
+            "text": "Migrationsprobleme",
+            "link": "/beratung/migration",
+            "description": "SchILD2-Ausgangsdaten und SVWS-Ergebnis prüfen."
+          },
+          {
+            "text": "Migrationswege",
+            "link": "/Fachberatung_Anleitungen/DBMigration/",
+            "description": "Die beiden Migrationsschritte unterscheiden."
+          },
+          {
+            "text": "SQL-Fallbeispiel",
+            "link": "/Fachberatung_Anleitungen/DBReparatur/",
+            "description": "Ein konkreter Reparaturfall mit begrenzter Übertragbarkeit."
+          }
+        ]
+      },
+      {
+        "text": "Probleme und Lösungen",
+        "link": "/beratung/probleme",
+        "description": "Nach Fehlerbild zu vorhandenen Hilfen."
+      },
+      {
+        "text": "Technische Vertiefung",
+        "link": "/Fachberatung_Anleitungen/",
+        "description": "Spezialthemen gezielt nachschlagen.",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "API-Beispiele",
+            "link": "/Fachberatung_Anleitungen/API-examples/"
+          },
+          {
+            "text": "Reporting",
+            "link": "/Fachberatung_Anleitungen/Reporting/"
+          },
+          {
+            "text": "Reporting: Beispielreport: Schülerliste",
+            "link": "/Fachberatung_Anleitungen/Reporting/BeispielreportSchuelerliste/"
+          },
+          {
+            "text": "Reporting: Reporting im Überblick",
+            "link": "/Fachberatung_Anleitungen/Reporting/Uebersicht/"
+          }
+        ]
+      }
+    ],
+    "fortbildung": [
+      {
+        "text": "Übersicht",
+        "link": "/fortbildung/"
+      },
+      {
+        "text": "Lernwege",
+        "link": "/fortbildung/lernwege",
+        "description": "Kenntnisse für Beratung und Moderation aufbauen."
+      },
+      {
+        "text": "Wissen dokumentieren",
+        "link": "/fortbildung/dokumentieren",
+        "description": "Aus Demonstrationen geprüfte Anleitungen machen."
+      },
+      {
+        "text": "Inhaltsstand",
+        "link": "/fortbildung/inhaltsstand",
+        "description": "Anleitungen und noch offene Nachbereitungen unterscheiden."
+      },
+      {
+        "text": "Fortbildungsarchiv",
+        "link": "/Fachberatung_Fortbildungen/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Umstieg auf SchILD-NRW 3",
+            "link": "/Fachberatung_Fortbildungen/UmstiegSchild3/"
+          },
+          {
+            "text": "Tipps für Supportanfragen",
+            "link": "/Fachberatung_Fortbildungen/Wissenswert/"
+          },
+          {
+            "text": "Offene Fragerunde",
+            "link": "/Fachberatung_Fortbildungen/Fragerunde/"
+          },
+          {
+            "text": "DBeaver",
+            "link": "/Fachberatung_Fortbildungen/DBeaver/"
+          },
+          {
+            "text": "Migration & Datenbanksicherung",
+            "link": "/Fachberatung_Fortbildungen/MigrationSicherung/"
+          },
+          {
+            "text": "MDB-Datenbanken reparieren",
+            "link": "/Fachberatung_Fortbildungen/ReparaturMDB/"
+          },
+          {
+            "text": "Fortbildung",
+            "link": "/Fachberatung_Fortbildungen/Installation/"
+          },
+          {
+            "text": "VirtualBox: Fortbildung",
+            "link": "/Fachberatung_Fortbildungen/Virtualbox/"
+          },
+          {
+            "text": "Proxmox: Fortbildung",
+            "link": "/Fachberatung_Fortbildungen/Proxmox/"
+          },
+          {
+            "text": "Grundlagen der Oberstufe",
+            "link": "/Fachberatung_Fortbildungen/GymnasialeOberstufeBasics/"
+          },
+          {
+            "text": "Oberstufenplanung",
+            "link": "/Fachberatung_Fortbildungen/Oberstufe/"
+          },
+          {
+            "text": "EF blocken",
+            "link": "/Fachberatung_Fortbildungen/EFBlockung/"
+          },
+          {
+            "text": "Q-Phase blocken",
+            "link": "/Fachberatung_Fortbildungen/QBlockung/"
+          },
+          {
+            "text": "Stundenplan & Klausuren",
+            "link": "/Fachberatung_Fortbildungen/Stundenplan_Klausurblockung/"
+          },
+          {
+            "text": "Reports: Fortbildung",
+            "link": "/Fachberatung_Fortbildungen/Reports/"
+          },
+          {
+            "text": "Webnotenmodul",
+            "link": "/Fachberatung_Fortbildungen/Wenom/"
+          },
+          {
+            "text": "Externe Module",
+            "link": "/Fachberatung_Fortbildungen/Externe_Module/"
+          },
+          {
+            "text": "Entwicklungsstand",
+            "link": "/Fachberatung_Fortbildungen/Aktuell/"
+          },
+          {
+            "text": "Austausch zu Schulungen",
+            "link": "/Fachberatung_Fortbildungen/Austausch_Schulungen/"
+          },
+          {
+            "text": "Schulungskonzepte",
+            "link": "/Fachberatung_Fortbildungen/Schulungskonzept/"
+          }
+        ]
+      },
+      {
+        "text": "SVWS-Convention",
+        "link": "/fortbildung/convention",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SVWS-Convention 2026",
+            "link": "/fortbildung/convention-2026"
+          }
+        ]
+      }
+    ],
+    "wissen": [
+      {
+        "text": "Übersicht",
+        "link": "/wissen/"
+      },
+      {
+        "text": "Aktuelles einordnen",
+        "link": "/wissen/aktuelles",
+        "description": "Versionen und konkrete Aufgaben prüfen."
+      },
+      {
+        "text": "SchILD2 zu SchILD3",
+        "link": "/wissen/umstieg",
+        "description": "Die zuständigen Dokumentationen und Übungswege finden."
+      },
+      {
+        "text": "Wichtige Links",
+        "link": "/wissen/links"
+      },
+      {
+        "text": "SchILD-Tipps",
+        "link": "/wissen/schild-tipps",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Datenbankmigration",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/datenbankmigration"
+          },
+          {
+            "text": "Ehemalige",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/ehemalige"
+          },
+          {
+            "text": "Spalten im Lehrercontainer",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/lehrerspalten"
+          },
+          {
+            "text": "Leistungsübersichten",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/leistungsuebersicht"
+          },
+          {
+            "text": "Startwarnung: Abschnitte",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt"
+          },
+          {
+            "text": "Statistikprüfung: Stapelüberlauf",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf"
+          },
+          {
+            "text": "Straßenkatalog",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/strassenkatalog"
+          },
+          {
+            "text": "Telli-Export",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/telliExport"
+          },
+          {
+            "text": "Rechtsbelehrung auf Zeugnissen",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung"
+          },
+          {
+            "text": "Zeugnisreports",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisreports"
+          },
+          {
+            "text": "ZP10-Export",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zp10Export"
+          }
+        ]
+      },
+      {
+        "text": "SVWS-Tipps",
+        "link": "/wissen/svws-tipps",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Versionsbezogener Bugfix",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/bugfix122"
+          },
+          {
+            "text": "Fehler in der Oberstufen-App",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/bugInOberstufenapp"
+          },
+          {
+            "text": "Datenbanksicherung mit DBeaver",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/dbeaver-dump"
+          },
+          {
+            "text": "Fehlerhafte Kursarten DFG und DFK",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK"
+          },
+          {
+            "text": "Kataloge im SVWS-Client",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/kataloge"
+          },
+          {
+            "text": "Konferenzübersicht",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/konferenzmodul"
+          },
+          {
+            "text": "SVWS-Tools",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/tools"
+          }
+        ]
+      }
+    ]
+  },
+  "routes": {
+    "/neu-im-team/": "team",
+    "/schulungsmodule/VonSchild2_ZuSchild3/": "schulungen",
+    "/Datenbanken/": "testdaten",
+    "/umgebungen/": "testdaten",
+    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "testdaten",
+    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "testdaten",
+    "/beratung/": "beratung",
+    "/Fachberatung_Anleitungen/": "beratung",
+    "/fortbildung/": "fortbildung",
+    "/Fachberatung_Fortbildungen/": "fortbildung",
+    "/wissen/": "wissen",
+    "/Tipp_der_Woche/": "wissen",
+    "/moderation/": "schulungen",
+    "/technik/": "testdaten",
+    "/umgebungen/lokale-analyse": "beratung"
+  },
+  "nav": [
+    {
+      "text": "Neu im Team",
+      "link": "/neu-im-team/"
+    },
+    {
+      "text": "Fachberatung",
+      "link": "/beratung/",
+      "activeMatch": "^/(beratung/|umgebungen/lokale-analyse|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
+    },
+    {
+      "text": "Moderation",
+      "link": "/moderation/",
+      "activeMatch": "^/(moderation/|schulungsmodule/)"
+    },
+    {
+      "text": "Datenbanken & Installation",
+      "link": "/technik/",
+      "activeMatch": "^/(technik/|Datenbanken/|umgebungen/(?!lokale-analyse)|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/|Fachberatung_Anleitungen/Test-_und_Schulungsserver/)"
+    },
+    {
+      "text": "Fortbildung",
+      "link": "/fortbildung/",
+      "activeMatch": "^/(fortbildung/|Fachberatung_Fortbildungen/(?!Installation_Fachberatung_Moderation_offline/))"
+    },
+    {
+      "text": "Wissen & Links",
+      "link": "/wissen/",
+      "activeMatch": "^/(wissen/|Tipp_der_Woche/)"
+    }
+  ],
+  "sectionLabels": {
+    "team": "Neu im Team",
+    "beratung": "Fachberatung",
+    "schulungen": "Moderation",
+    "testdaten": "Datenbanken & Installation",
+    "fortbildung": "Fortbildung",
+    "wissen": "Wissen & Links"
+  },
+  "aliases": {
+    "/Tipp_der_Woche/": "/wissen/",
+    "/Datenbanken/Grundschule/": "/Datenbanken/testdaten/#grundschule",
+    "/Datenbanken/testdaten/sekundarstufe-i": "/Datenbanken/testdaten/#sekundarstufe-i",
+    "/Datenbanken/GOSt-DB/": "/Datenbanken/testdaten/#sekundarstufe-ii-bis-2026",
+    "/Datenbanken/GOSt-DB_2026/": "/Datenbanken/testdaten/#sekundarstufe-ii-ab-2026",
+    "/Datenbanken/Gesamtschule/": "/Datenbanken/testdaten/#gesamtschule",
+    "/Datenbanken/testdaten/berufskolleg": "/Datenbanken/testdaten/#berufskolleg",
+    "/Datenbanken/schulungen/basisschulung": "/Datenbanken/schulungen/#basisschulung",
+    "/Datenbanken/schulungen/grundschule-grundlagen": "/Datenbanken/schulungen/#grundschule-grundlagen",
+    "/Datenbanken/schulungen/grundschule-zeugnisse": "/Datenbanken/schulungen/#grundschule-zeugnisse",
+    "/Datenbanken/schulungen/sekundarstufe-i": "/Datenbanken/schulungen/#sekundarstufe-i",
+    "/Datenbanken/schulungen/oberstufe-ef": "/Datenbanken/schulungen/#oberstufe-ef",
+    "/Datenbanken/schulungen/oberstufe-qphase": "/Datenbanken/schulungen/#oberstufe-qphase",
+    "/Datenbanken/schulungen/klausurplanung": "/Datenbanken/schulungen/#klausurplanung",
+    "/Datenbanken/schulungen/laufbahndaten": "/Datenbanken/schulungen/#laufbahndaten",
+    "/Datenbanken/schulungen/berufskolleg": "/Datenbanken/schulungen/#berufskolleg",
+    "/Datenbanken/schulungen/reports": "/Datenbanken/schulungen/#reports",
+    "/Datenbanken/schulungen/schild2-zu-3": "/Datenbanken/schulungen/#schild2-zu-3",
+    "/Datenbanken/schulungen/umstieg-vergleich": "/Datenbanken/schulungen/#umstieg-vergleich",
+    "/Datenbanken/steckbrief": "/Datenbanken/"
+  }
+}

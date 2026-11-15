@@ -1,0 +1,58 @@
+# Fortbildung: Webnotenmodul (WeNoM)
+
+
+::: info Veranstaltungsunterlagen – keine vollständige Anleitung
+Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
+
+Für die praktische Arbeit: [Offizielle SVWS-Handbücher](https://doku.svws-nrw.de/). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
+:::
+
+## Inhalte
+
++ Aktueller Entwicklungsstand
++ [Informationen zur Installation](#informationen-zur-installation)
++ Verbindung zum Webnotenmanager einrichten
++ Kurzeinführung der Noteneingabe
+
+### Ablauf der Fortbildung
+
+Die oben genannten Inhalte werden vorgestellt. Eine gemeinsame Installation oder Überungsphasen sind nicht vorgesehen.
+
+Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit hat oder keine Fragen hat, kann das Meeting ohne Weiteres verlassen.
+
+### Hilfreiche Links
+
++ SVWS-Dokumentation zum Webnotenmanager: <https://doku.svws-nrw.de/svws-wenom/>
+
+## aktueller Entwicklungsstand
+
+### Juni 2026
+
++ Beta Version
++ einige Schulen eigenständig im Liver Einsatz
++ einige IT -Dienstleiter im Testing
++ Datenschutzerklärung, AVV, Impressum Muster werden entwickelt
++ Lasttests abgeschlossen
++ Mandantenfähigkeit geprüft
++ Bugtracking ...
+
+### Bekannte Bugs
+
++ Zeitsyncronisation
++ Up & download vs Syncbutton
++ (automatischen) Abmelden
++ auf Initialkennwort zurücksetzen / initialkennwort gesetzt
+
+## Informationen zur Installation
+
++ Voraussetzungen siehe Schnellanleitung: <https://doku.svws-nrw.de/svws-wenom/installation/>
+(Apache Webserver, Webhostingspace)
++ Installation webspace exemplarisch: <https://doku.svws-nrw.de/svws-wenom/hoster_installation/all-inkl.html>
+(Erläuterungen der "Installation" auf dem Webspace)
++ Wie kann ich das Zuhause erreichen?
+(Virtual Box, Zweiterrechner zum Experimentieren, Proxmox)
++ Einfache Installation per Skript: <https://svws-nrw.github.io/Schulungsunterlagen/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/>
++ Werbung "all in one Skript"
+(Theo testet gerade noch.)
++ Weitene Fragen ...
+z.B. Wie erstelle ich vorbereitete Datenbanken / Testzugänge im Wenom?
