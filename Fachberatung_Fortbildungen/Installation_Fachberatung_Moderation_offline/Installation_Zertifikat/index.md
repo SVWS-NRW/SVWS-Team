@@ -14,7 +14,7 @@ Navigiere zum Windows-Systemordner "Dokumente". Dort findest Du in der Regel ein
 > In der Datei C:\ProgramData\SVWS-Server\logs\keystore.log ist der Pflad der Zertifikatsdatei hinterlegt.
 
 ### Installation des Zertifikats
-Eine detailierte Anleitung zur Installation des Zertifikats findest Du im [Wiki](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3#Installation_des_SSL-Zertifikats).
+Eine detailierte Anleitung zur Installation des Zertifikats findest Du im [Wiki](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html#installation-des-ssl-zertifikats).
 
 Achte darauf, das Zertifikat in **Vertrauenswürdige Stammzertifizierung** zu installieren.
 

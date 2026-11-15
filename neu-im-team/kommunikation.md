@@ -34,6 +34,6 @@ Wenn Du mit einem Beratungsfall nicht weiterkommst, erreichst Du die Landesfachb
 
 ## An Dokumentation & Entwicklung mitarbeiten
 
-Für die Mitarbeit im bisherigen Wiki wird ein gesonderter Zugang benötigt; melde Dich dafür beim Team. Die [Vorgaben für Wiki-Autorinnen und -Autoren](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Vorgaben_f%C3%BCr_Wiki-Autoren) und die [Musterseite](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Musterseite_f%C3%BCr_Wiki-Autoren) helfen beim Einstieg.
+Wenn Du in der SchILD3-Dokumentation mitarbeiten möchtest, beginne mit [Mitarbeiten](https://schild3.svws-nrw.de/hilfe/mitarbeiten.html). Die Anleitungen [Artikel schreiben](https://schild3.svws-nrw.de/hilfe/artikel-schreiben.html) und [Markdown und Gestaltung](https://schild3.svws-nrw.de/hilfe/markdown-und-gestaltung.html) helfen Dir beim Einstieg.
 
 Auf [GitHub](https://github.com/SVWS-NRW) werden Quelltexte, Reports und Entwicklungsstände verwaltet. Für eigene Issues brauchst Du einen GitHub-Account. Suche vorher nach vorhandenen Meldungen. Du kannst Dein Anliegen auch zunächst im Fachberaterforum besprechen.

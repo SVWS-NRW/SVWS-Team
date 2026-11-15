@@ -51,7 +51,7 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit 
 (Erläuterungen der "Installation" auf dem Webspace)
 + Wie kann ich das Zuhause erreichen?
 (Virtual Box, Zweiterrechner zum Experimentieren, Proxmox)
-+ Einfache Installation per Skript: <https://svws-nrw.github.io/Schulungsunterlagen/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/>
++ Einfache Installation per Skript: <https://team.svws-nrw.de/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/>
 + Werbung "all in one Skript"
 (Theo testet gerade noch.)
 + Weitene Fragen ...

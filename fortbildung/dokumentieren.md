@@ -12,7 +12,7 @@ Formuliere eine Aufgabe: etwa „Ein SQLite-Backup in ein eigenes Testschema imp
 
 | Inhalt | Wo die ausführliche Erklärung gepflegt wird |
 | --- | --- |
-| SchILD-Bedienung und Unterschiede SchILD2/SchILD3 | SchILD3-Dokumentation bzw. vorhandenes Wiki |
+| SchILD-Bedienung und Unterschiede SchILD2/SchILD3 | SchILD3-Dokumentation |
 | Serverinstallation und AdminClient | SVWS-Dokumentation |
 | Beratungsweg und Untersuchung eines Falls | Fachberatung im Portal |
 | Schulungsauftrag und Moderationshinweis | Moderation bzw. Schulungsmodul |

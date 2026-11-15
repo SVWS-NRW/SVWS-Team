@@ -101,7 +101,7 @@ Anschließend die Korrektur über einen PR **von `master` nach `dev`** zurückf�
 
 ## Manueller Lauf des Veröffentlichungsworkflows
 
-Der Workflow **Dokumentation auf GitHub Pages veröffentlichen** (`.github/workflows/deploy.yml`) behält `workflow_dispatch`. Im regulären Ablauf ist dieser manuelle Start nicht erforderlich: Jeder vorgesehene Veröffentlichungs-PR erzeugt durch den Merge nach `master` bereits den automatischen Lauf.
+Der Workflow **Dokumentation veröffentlichen** (`.github/workflows/deploy.yml`) behält `workflow_dispatch`. Im regulären Ablauf ist dieser manuelle Start nicht erforderlich: Jeder vorgesehene Veröffentlichungs-PR erzeugt durch den Merge nach `master` bereits den automatischen Lauf.
 
 | Auslöser | Ergebnis |
 | --- | --- |

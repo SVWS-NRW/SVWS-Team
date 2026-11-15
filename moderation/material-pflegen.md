@@ -9,7 +9,7 @@ Aufgaben und Hilfen bleiben verwendbar, auch wenn sich Software oder Daten ände
 | Inhalt | Richtiger Ort |
 | --- | --- |
 | Arbeitsauftrag, Lernziel und erwartetes Ergebnis | Schulungsmodul |
-| Bedienungsanleitung und Unterschiede SchILD2/SchILD3 | SchILD3-Dokumentation bzw. vorhandenes Wiki |
+| Bedienungsanleitung und Unterschiede SchILD2/SchILD3 | SchILD3-Dokumentation |
 | Server- und AdminClient-Funktion | SVWS-Dokumentation |
 | Auswahl des Raumaufbaus und Raumabnahme | Schulungsumgebung im Portal |
 | Konkreter Datenstand und Modulzuordnung | Schulungsdatenbanken im Portal |
@@ -27,7 +27,7 @@ Führe den Auftrag mit der angegebenen Datei und den dokumentierten Versionen au
 
 ## 4. Eine zweite Person erproben lassen
 
-Eine Person, die den Ablauf nicht selbst geschrieben hat, sollte ihn nachvollziehen. Prüfe dabei auch Links, Menüzuordnung und Rücksetzweg. Die [Vorlagen](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule/vorlagen.html) helfen bei konsistenten Materialien.
+Eine Person, die den Ablauf nicht selbst geschrieben hat, sollte ihn nachvollziehen. Prüfe dabei auch Links, Menüzuordnung und Rücksetzweg. Die [Vorlagen](https://schulungen.svws-nrw.de/schulungsmodule/vorlagen.html) helfen bei konsistenten Materialien.
 
 ## 5. Erkenntnisse dauerhaft sichern
 

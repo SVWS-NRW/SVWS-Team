@@ -9,7 +9,7 @@ Und zwar nicht nur als normale Notenübersicht, sondern auch speziell für Konfe
 https://github.com/SVWS-NRW/Schild-NRW-3-Reports/releases
 
 **Anleitung:**    
-https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Basisreports_%26_Downloads_Themen%C3%BCbersicht#Leistungs%C3%BCbersichten_&_Bescheinigungen
+https://schild3.svws-nrw.de/reporting/basisreports/basisreports-downloads-themenuebersicht.html#leistungsubersichten-und-bescheinigungen
 
 
 ### Hier mal ein Beispiel  für die Q2:

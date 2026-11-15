@@ -31,13 +31,13 @@ Führe die Installation als Administrator aus!
 
 
 > [!TIP] 
-> Eine ausführliche Anleitung findest Du auch im [Wiki](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3#Installation_von_SchILD-NRW_3 ).
+> Eine ausführliche Anleitung findest Du auch im [Wiki](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html#installation-von-schild-nrw-3 ).
 
 
 Nach der Installation öffnet sich automatisch das Programm **SchILD_DBConfig.exe** aus dem Ordner C:\Program Files (x86)\SchILD-NRW3. Mit diesem Programm kann die Verbindungsdatei xyz.con erstellt und gespeichert werden. Bei weiteren Migrationen muss dieses Programm manuell gestartet werden, um entsprechende Verbindungsdateien zu den weiteren Datenbanken zu erstellen.
 
 > [!TIP] 
-> Eine gute Anleitung findest Du auch im [Wiki](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3#Die_Konfigurationsdatei_.28auch_mit_SchILD_DBConfig.exe.29). 
+> Eine gute Anleitung findest Du auch im [Wiki](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html#die-verbindung-mit-schild-dbconfig-exe-konfigurieren).
 > 
 
 

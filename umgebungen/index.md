@@ -28,6 +28,6 @@ Du musst diese Schritte nicht unter Zeitdruck am Telefon erledigen. Bereite den 
 | DBeaver | Datenbankverbindungen aufbauen, Tabellen und Abfragen untersuchen |
 | Microsoft Access, falls verfügbar | Bestimmte MDB-Reparaturaufgaben; kein Pflichtbestandteil jedes Arbeitsplatzes |
 
-Die [ergänzenden Installationsbilder](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) zeigen ältere Installationsabläufe. Für eine neue Installation beginnt der verlässliche Weg mit den aktuellen [Wiki- und Installationslinks](./einrichten.md).
+Die [ergänzenden Installationsbilder](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) zeigen ältere Installationsabläufe. Für eine neue Installation beginnt der verlässliche Weg mit den aktuellen [Installationsanleitungen](./einrichten.md).
 
 Für einen konkreten Beratungsfall wechselst Du anschließend zur [Fachberatung](/beratung/ablauf). Für mehrere Teilnehmende gibt es die gesonderte [Schulungsumgebung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/).
