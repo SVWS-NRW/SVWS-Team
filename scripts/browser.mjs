@@ -50,6 +50,13 @@ try{
  }
  assert.deepEqual((await page.locator('.VPNavBarMenu > a').allTextContents()).map(text=>text.trim()),headings)
  assert.equal((await page.locator('.VPNavBarTitle .title').innerText()).trim(),'SVWS-Team')
+ assert.deepEqual(await page.locator('.VPHero .actions a').evaluateAll(links=>links.map(link=>[
+  link.textContent.trim(),link.getAttribute('href')
+ ])),[
+  ['Neu im Team','/neu-im-team/'],
+  ['SVWS-Doku','https://doku.svws-nrw.de/'],
+  ['SchILD3-Doku','https://schild3.svws-nrw.de/']
+ ])
  for(const section of navigation.nav){
   await view(section.link)
   assert.equal((await page.locator('#VPSidebarNav a').first().innerText()).trim(),'Rubrik drucken',section.text)
