@@ -1,12 +1,18 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
 
-const links = [{ text: 'Lizenz', href: '/LICENSE.html' }]
+const links = [
+  { text: 'Impressum', href: '/impressum.html' },
+  { text: 'Datenschutzerklärung', href: '/datenschutz.html' },
+  { text: 'Barrierefreiheitserklärung', href: '/barrierefreiheit.html' },
+  { text: 'Leichte Sprache', href: '/leichtesprache.html' },
+  { text: 'Lizenz', href: '/LICENSE.html' }
+]
 </script>
 
 <template>
   <footer class="site-footer">
-    <nav aria-label="Rechtliche Informationen">
+    <nav aria-label="Rechtliche Informationen und Leichte Sprache">
       <ul>
         <li v-for="link in links" :key="link.href">
           <a :href="withBase(link.href)">{{ link.text }}</a>

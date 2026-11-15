@@ -35,7 +35,7 @@ export default defineConfig({
                 Object.assign(pageData.frontmatter, footerFor(navigation, '/' + pageData.relativePath));
             }
         },
-        srcExclude: ['README.md', 'CONTRIBUTING.md', 'WORKFLOW.md', 'scripts/**', 'node_modules/**', 'tmp/**', 'test-results/**', 'PORTAL-REDAKTION.md', 'ARTIKELSTANDARD.md', 'markdown-examples.md', 'api-examples.md', 'HARMONISIERUNG.md', 'tests/**', '**/notes.md'],
+        srcExclude: ['README.md', 'CONTRIBUTING.md', 'WORKFLOW.md', 'scripts/**', 'redaktion/**', 'node_modules/**', 'tmp/**', 'test-results/**', 'PORTAL-REDAKTION.md', 'tests/**', '**/notes.md'],
         markdown: {
             container: containerLabels,
             image: { lazyLoading: true },

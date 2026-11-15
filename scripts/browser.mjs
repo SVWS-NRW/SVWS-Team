@@ -41,6 +41,13 @@ try{
  const headings=project.repo.endsWith('SVWS-Schulungen')?['Arnsberg','Detmold','Düsseldorf','Köln','Münster','Hilfe']:['Neu im Team','Fachberatung','Moderation','Datenbanken & Installation','Fortbildung','Wissen & Links','Hilfe']
  await page.setViewportSize({width:1440,height:900})
  await view('/')
+ for(const [label,route] of [['Impressum','impressum'],['Datenschutzerklärung','datenschutz'],['Barrierefreiheitserklärung','barrierefreiheit'],['Leichte Sprache','leichtesprache'],['Lizenz','LICENSE']]){
+  const link=page.locator('.site-footer').getByRole('link',{name:label,exact:true})
+  assert.equal(await link.getAttribute('href'),'/'+route+'.html')
+  await link.click()
+  await page.waitForURL('**/'+route+'.html')
+  await view('/')
+ }
  assert.deepEqual((await page.locator('.VPNavBarMenu > a').allTextContents()).map(text=>text.trim()),headings)
  const article='/hilfe/github-editor.html'
  for(const width of [1440,390]){

@@ -20,14 +20,14 @@
 		"allowJs": true,
 		"checkJs": true,
 		"newLine": "lf",
-		"rootDir": ".",
+		"rootDir": "..",
 		"types": ["vite/client"]
 	},
 	"include": [
    	"**/*.ts",
-		".vitepress/config.ts",
+		"config.mts",
    	"**/*.vue",
-    "**/*.md"
+    "../**/*.md"
     ],
 	"vueCompilerOptions": {
     "vitePressExtensions": [".md"],
