@@ -60,6 +60,17 @@ try{
  for(const section of navigation.nav){
   await view(section.link)
   assert.equal((await page.locator('#VPSidebarNav a').first().innerText()).trim(),'Rubrik drucken',section.text)
+  const sidebar=page.locator('#VPSidebarNav')
+  assert.equal(await sidebar.locator('.VPSidebarItem.level-0').count(),1,section.text)
+  assert.equal(await sidebar.getByText('Weitere Bereiche',{exact:true}).count(),0,section.text)
+  const entries=(await sidebar.locator('.VPSidebarItem.level-1 > .item a').allTextContents()).map(text=>text.trim())
+  if(section.link==='/neu-im-team/'){
+   assert.equal((await sidebar.locator('.VPSidebarItem.level-0 > .item').innerText()).trim(),'Neu im Team')
+   assert.deepEqual(entries,['Rubrik drucken','Erste Schritte','Kommunikation','Zusammenarbeit'])
+  }
+  if(section.link==='/technik/'){
+   assert.deepEqual(entries,['Rubrik drucken','Übersicht','Datenbanken','Testumgebung','Schulungsumgebung','Ergänzende Installationsbilder'])
+  }
  }
  await view('/moderation/')
  const sidebarLinks=await page.locator('#VPSidebarNav a').allTextContents()

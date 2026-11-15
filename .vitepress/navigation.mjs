@@ -48,14 +48,7 @@ export function sidebarFor(navigation, url) {
   const map = items => items.map(item => ({
     ...item, ...(item.items?.length ? { collapsed: !trail.includes(item), items: map(item.items) } : {})
   }))
-  const topics = map(navigation.sections[section])
-  const others = {
-    text: 'Weitere Bereiche', collapsed: true,
-    items: navigation.nav.filter(item => sectionFor(navigation, item.link) !== section).map(({ text, link }) => ({ text, link }))
-  }
-  if (section === 'team') return [...topics.map(({ collapsed, ...group }) => group), others]
-  if (section === 'testdaten') return [...topics, others]
-  return [{ text: navigation.sectionLabels[section], items: topics }, others]
+  return [{ text: navigation.sectionLabels[section], items: map(navigation.sections[section]) }]
 }
 export function createSidebar(navigation) {
   const exact = {}
