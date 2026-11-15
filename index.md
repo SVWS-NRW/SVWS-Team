@@ -26,9 +26,9 @@ features:
     details: "Schulungen vorbereiten, durchführen und nachbereiten."
     link: /moderation/
     linkText: Einstieg öffnen
-  - title: "Datenbanken & Installation"
-    details: "Test-, Schulungs- und Problemdaten unterscheiden; Testplatz oder Schulungsraum einrichten."
-    link: /technik/
+  - title: "Datenbanken"
+    details: "Testdaten und Schulungsdaten finden sowie Problemdaten geschützt austauschen."
+    link: /Datenbanken/
     linkText: Einstieg öffnen
   - title: "Fortbildung"
     details: "Kenntnisse gezielt aufbauen und aus Demonstrationen nutzbare Anleitungen machen."

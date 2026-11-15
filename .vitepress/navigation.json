@@ -50,80 +50,6 @@
         "text": "Material weiterentwickeln",
         "link": "/moderation/material-pflegen",
         "description": "Erprobte Aufgaben und Anleitungen pflegen."
-      }
-    ],
-    "testdaten": [
-      {
-        "text": "Rubrik drucken",
-        "link": "/druck/datenbanken-installation",
-        "description": "Alle Artikel der Rubrik als Druckansicht."
-      },
-      {
-        "text": "Übersicht",
-        "link": "/technik/",
-        "description": "Datenbanken, Testumgebung und Schulungsumgebung im Überblick."
-      },
-      {
-        "text": "Datenbanken",
-        "link": "/Datenbanken/",
-        "description": "Den passenden Datenbestand auswählen.",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Testdatenbanken",
-            "link": "/Datenbanken/testdaten/",
-            "description": "Schulformen und besondere Testfälle."
-          },
-          {
-            "text": "Schulungsdatenbanken",
-            "link": "/Datenbanken/schulungen/",
-            "description": "Ausgangsstände nach Schulungsmodul."
-          },
-          {
-            "text": "Problemdatenbanken",
-            "link": "/Datenbanken/problemdatenbanken",
-            "description": "SQLite-Sicherungen geschützt austauschen."
-          }
-        ],
-        "readingOrder": "none"
-      },
-      {
-        "text": "Testumgebung",
-        "link": "/umgebungen/",
-        "description": "Den eigenen Beratungsarbeitsplatz vorbereiten.",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Umgebung wählen",
-            "link": "/umgebungen/auswahl",
-            "description": "Rechner, vorhandenen Server oder VM passend auswählen."
-          },
-          {
-            "text": "PC oder Laptop einrichten",
-            "link": "/umgebungen/einrichten",
-            "description": "Einrichtung mit den aktuellen Wiki-Anleitungen."
-          },
-          {
-            "text": "SchILD2 und Migrationstool",
-            "link": "/umgebungen/schild2",
-            "description": "Ausgangsdaten prüfen und Migrationswege unterscheiden."
-          },
-          {
-            "text": "DBeaver und Access",
-            "link": "/umgebungen/dbeaver",
-            "description": "Verbindungen, Datenanalyse und Reparaturgrenzen."
-          },
-          {
-            "text": "Testdaten einspielen",
-            "link": "/umgebungen/testdaten",
-            "description": "Getrennte Schemata anlegen und fachlich prüfen."
-          },
-          {
-            "text": "Warten und zurücksetzen",
-            "link": "/umgebungen/wartung",
-            "description": "Versionen, Sicherungen und Rückwege beherrschen."
-          }
-        ]
       },
       {
         "text": "Schulungsumgebung",
@@ -177,54 +103,33 @@
           }
         ],
         "description": "Räume mit vorhandenen PCs oder mitgebrachten Laptops vorbereiten und betreuen."
+      }
+    ],
+    "testdaten": [
+      {
+        "text": "Rubrik drucken",
+        "link": "/druck/datenbanken-installation",
+        "description": "Alle Artikel der Rubrik als Druckansicht."
       },
       {
-        "text": "Ergänzende Installationsbilder",
-        "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
-        "description": "Frühere Bildfolgen mit aktuellen Einstiegshinweisen.",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "SVWS-AdminClient",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "DBeaver",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "Installationshandout",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "SchILD-NRW 3 installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "SVWS-Server installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "Zertifikat installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "Logdateien",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          },
-          {
-            "text": "Sichten im SVWS-Client",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/",
-            "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
-          }
-        ]
+        "text": "Übersicht",
+        "link": "/Datenbanken/",
+        "description": "Den passenden Datenbestand auswählen."
+      },
+      {
+        "text": "Testdatenbanken",
+        "link": "/Datenbanken/testdaten/",
+        "description": "Schulformen und besondere Testfälle."
+      },
+      {
+        "text": "Schulungsdatenbanken",
+        "link": "/Datenbanken/schulungen/",
+        "description": "Ausgangsstände nach Schulungsmodul."
+      },
+      {
+        "text": "Problemdatenbanken",
+        "link": "/Datenbanken/problemdatenbanken",
+        "description": "SQLite-Sicherungen geschützt austauschen."
       }
     ],
     "beratung": [
@@ -241,7 +146,95 @@
       {
         "text": "Arbeitsplatz vorbereiten",
         "link": "/beratung/arbeitsplatz",
-        "description": "Die persönliche Testumgebung zusammenstellen."
+        "description": "Die persönliche Testumgebung zusammenstellen.",
+        "items": [
+          {
+            "text": "Testumgebung",
+            "link": "/umgebungen/",
+            "description": "Den eigenen Beratungsarbeitsplatz vorbereiten.",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Umgebung wählen",
+                "link": "/umgebungen/auswahl",
+                "description": "Rechner, vorhandenen Server oder VM passend auswählen."
+              },
+              {
+                "text": "PC oder Laptop einrichten",
+                "link": "/umgebungen/einrichten",
+                "description": "Einrichtung mit den aktuellen Wiki-Anleitungen."
+              },
+              {
+                "text": "SchILD2 und Migrationstool",
+                "link": "/umgebungen/schild2",
+                "description": "Ausgangsdaten prüfen und Migrationswege unterscheiden."
+              },
+              {
+                "text": "DBeaver und Access",
+                "link": "/umgebungen/dbeaver",
+                "description": "Verbindungen, Datenanalyse und Reparaturgrenzen."
+              },
+              {
+                "text": "Testdaten einspielen",
+                "link": "/umgebungen/testdaten",
+                "description": "Getrennte Schemata anlegen und fachlich prüfen."
+              },
+              {
+                "text": "Warten und zurücksetzen",
+                "link": "/umgebungen/wartung",
+                "description": "Versionen, Sicherungen und Rückwege beherrschen."
+              }
+            ]
+          },
+          {
+            "text": "Ergänzende Installationsbilder",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
+            "description": "Frühere Bildfolgen mit aktuellen Einstiegshinweisen.",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "SVWS-AdminClient",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "DBeaver",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Installationshandout",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "SchILD-NRW 3 installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "SVWS-Server installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Zertifikat installieren",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Logdateien",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              },
+              {
+                "text": "Sichten im SVWS-Client",
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/",
+                "description": "Erhaltene Bildfolge; tatsächliche Einstellungen im aktuellen Verfahren prüfen."
+              }
+            ]
+          }
+        ]
       },
       {
         "text": "Supportfall bearbeiten",
@@ -617,9 +610,9 @@
     "/neu-im-team/": "team",
     "/schulungsmodule/VonSchild2_ZuSchild3/": "schulungen",
     "/Datenbanken/": "testdaten",
-    "/umgebungen/": "testdaten",
-    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "testdaten",
-    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "testdaten",
+    "/umgebungen/": "beratung",
+    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "schulungen",
+    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "beratung",
     "/beratung/": "beratung",
     "/Fachberatung_Anleitungen/": "beratung",
     "/fortbildung/": "fortbildung",
@@ -648,17 +641,17 @@
     {
       "text": "Fachberatung",
       "link": "/beratung/",
-      "activeMatch": "(?:^/(beratung/|umgebungen/lokale-analyse|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver)))|(?:^/druck/fachberatung(?:[.]html)?$)"
+      "activeMatch": "(?:^/(beratung/|umgebungen/|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver/)))|(?:^/druck/fachberatung(?:[.]html)?$)"
     },
     {
       "text": "Moderation",
       "link": "/moderation/",
-      "activeMatch": "(?:^/(moderation/|schulungsmodule/))|(?:^/druck/moderation(?:[.]html)?$)"
+      "activeMatch": "(?:^/(moderation/|schulungsmodule/|Fachberatung_Anleitungen/Test-_und_Schulungsserver/))|(?:^/druck/moderation(?:[.]html)?$)"
     },
     {
-      "text": "Datenbanken & Installation",
-      "link": "/technik/",
-      "activeMatch": "(?:^/(technik/|Datenbanken/|umgebungen/(?!lokale-analyse)|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/|Fachberatung_Anleitungen/Test-_und_Schulungsserver/))|(?:^/druck/datenbanken-installation(?:[.]html)?$)"
+      "text": "Datenbanken",
+      "link": "/Datenbanken/",
+      "activeMatch": "(?:^/(Datenbanken/|technik/))|(?:^/druck/datenbanken-installation(?:[.]html)?$)"
     },
     {
       "text": "Fortbildung",
@@ -680,7 +673,7 @@
     "team": "Neu im Team",
     "beratung": "Fachberatung",
     "schulungen": "Moderation",
-    "testdaten": "Datenbanken & Installation",
+    "testdaten": "Datenbanken",
     "fortbildung": "Fortbildung",
     "wissen": "Wissen & Links",
     "hilfe": "Hilfe"
@@ -705,6 +698,7 @@
     "/Datenbanken/schulungen/reports": "/Datenbanken/schulungen/#reports",
     "/Datenbanken/schulungen/schild2-zu-3": "/Datenbanken/schulungen/#schild2-zu-3",
     "/Datenbanken/schulungen/umstieg-vergleich": "/Datenbanken/schulungen/#umstieg-vergleich",
-    "/Datenbanken/steckbrief": "/Datenbanken/"
+    "/Datenbanken/steckbrief": "/Datenbanken/",
+    "/technik/": "/Datenbanken/"
   }
 }

@@ -32,4 +32,4 @@ Die Fachberatung ist erste Anlaufstelle ihrer Schulen. Die [Rollenübersicht](/n
 
 ## Wenn Dir Wissen fehlt
 
-Wähle einen [Lernweg](/fortbildung/lernwege) und arbeite zunächst mit Testdaten. Ein unbekannter Installationsfall ist ein Anlass zur Rückfrage, nicht zum Ausprobieren am produktiven System. Technische Grundlagen findest Du zentral unter [Datenbanken & Installation](/technik/).
+Wähle einen [Lernweg](/fortbildung/lernwege) und arbeite zunächst mit Testdaten. Ein unbekannter Installationsfall ist ein Anlass zur Rückfrage, nicht zum Ausprobieren am produktiven System. Die technische Einrichtung findest Du unter [Arbeitsplatz vorbereiten](/beratung/arbeitsplatz).
