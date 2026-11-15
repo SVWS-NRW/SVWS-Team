@@ -42,6 +42,7 @@ export default defineConfig({
             config: md => configureMarkdown(md, siteBase),
         },
         themeConfig: {
+            siteTitle: 'SVWS-Team',
             outline: { label: 'Auf dieser Seite', level: [2, 3] },
             docFooter: { next: 'Nächstes Thema', prev: 'Vorheriges Thema' },
             lastUpdated: { text: 'Zuletzt bearbeitet', formatOptions: { dateStyle: 'long' } },

@@ -9,7 +9,7 @@ Die historische Sammlung enthält überwiegend Themen, geplante Abläufe und Beg
 | Migration und Sicherung | [Import und Kontrolle](/umgebungen/testdaten), [Migrationsdiagnose](/beratung/migration) | Versionsbezogene Spezialfälle mit dokumentierten Ausgangsdaten |
 | Supportanfragen | [Supportablauf](/beratung/ablauf) | Wiederverwendbare, anonymisierte Fallbeispiele aus der Praxis |
 | VirtualBox und Proxmox | [Schulungsumgebung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/) | Abnahme der konkreten Raumhardware und spezieller Installationen |
-| Schulungskonzepte | [Vorbereitung](https://svws-nrw.github.io/SVWS-Schulungen/moderation/vorbereiten.html), [Materialpflege](https://svws-nrw.github.io/SVWS-Schulungen/moderation/material-pflegen.html) | Fachliche Erprobung und Datenfreigabe der einzelnen Module |
+| Schulungskonzepte | [Vorbereitung](/moderation/vorbereiten.html), [Materialpflege](/moderation/material-pflegen.html) | Fachliche Erprobung und Datenfreigabe der einzelnen Module |
 | Oberstufe, Reports und zusätzliche Tools | [Module](https://svws-nrw.github.io/SVWS-Schulungen/schulungsmodule/), [offizielle Handbücher](https://doku.svws-nrw.de/) | Nachbereitung der jeweiligen Demonstrationen; keine aus Agenden erfundenen Lösungen |
 
 ## Eine Lücke schließen

@@ -19,7 +19,7 @@ Schön, dass Du dabei bist! Hier findest Du Orientierung für Deine Arbeit als F
 | --- | --- |
 | Welche Aufgaben haben die verschiedenen Rollen? | [Rollen & Zusammenarbeit](./rollen.md) |
 | Wie bleibe ich informiert und wen kontaktiere ich? | [Kommunikation & Zugänge](./kommunikation.md) |
-| Wie bereite ich meine erste Schulung vor? | [Schulung vorbereiten](https://svws-nrw.github.io/SVWS-Schulungen/moderation/vorbereiten.html) |
+| Wie bereite ich meine erste Schulung vor? | [Schulung vorbereiten](/moderation/vorbereiten.html) |
 | Wie gehe ich mit einer Rückfrage aus einer Schule um? | [Fachberatung](/beratung/) |
 
 Diese Orientierung greift das Willkommensschreiben auf und berücksichtigt die aktuelle Aufgabenverteilung im Team. Das Portal ist öffentlich; Zugänge zu geschützten Angeboten erhältst Du über die genannten Kommunikationswege.

@@ -23,7 +23,7 @@ features:
     link: /beratung/
     linkText: Einstieg öffnen
   - title: "Moderation"
-    details: "Einstieg zu den Schulungsunterlagen und Vorlagen."
+    details: "Schulungen vorbereiten, durchführen und nachbereiten."
     link: /moderation/
     linkText: Einstieg öffnen
   - title: "Datenbanken & Installation"

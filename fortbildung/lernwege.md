@@ -27,7 +27,7 @@ Beginne mit einer konkreten Aufgabe und einem überschaubaren öffentlichen Test
 3. Nimm mit der Stützpunktleitung die Umgebung ab.
 4. Lass eine zweite Person einen ausgewählten Arbeitsauftrag ohne mündliche Zusatzhinweise durchführen.
 
-**Du bist bereit**, wenn Voraussetzungen, Aufgabe und Erfolgskontrolle verständlich sind. Für die gemeinsame Weiterentwicklung nutze [Material pflegen](https://svws-nrw.github.io/SVWS-Schulungen/moderation/material-pflegen.html).
+**Du bist bereit**, wenn Voraussetzungen, Aufgabe und Erfolgskontrolle verständlich sind. Für die gemeinsame Weiterentwicklung nutze [Material pflegen](/moderation/material-pflegen.html).
 
 ## Oberstufe, Reporting oder Tools vertiefen
 
