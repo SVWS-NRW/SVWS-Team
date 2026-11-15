@@ -74,7 +74,7 @@ try{
  }
  await view('/moderation/')
  const sidebarLinks=await page.locator('#VPSidebarNav a').allTextContents()
- assert.deepEqual(sidebarLinks.slice(0,6).map(text=>text.trim()),['Rubrik drucken','Übersicht','Schulung vorbereiten','Schulung durchführen','Schulung nachbereiten','Material weiterentwickeln'])
+ assert.deepEqual(sidebarLinks.slice(0,7).map(text=>text.trim()),['Rubrik drucken','Übersicht','Schulung vorbereiten','Schulung durchführen','Schulung nachbereiten','Schulungsvorlagen','Material weiterentwickeln'])
  await view('/beratung/arbeitsplatz.html')
  const workplace=page.locator('#VPSidebarNav .VPSidebarItem.level-1').filter({has:page.getByRole('link',{name:'Arbeitsplatz vorbereiten',exact:true})})
  const children=(await workplace.locator('.VPSidebarItem.level-2 > .item a').allTextContents()).map(text=>text.trim())

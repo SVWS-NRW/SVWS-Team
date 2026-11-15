@@ -30,7 +30,7 @@ Vereinbare, wer vor Beginn bereitstellt, wer während der Schulung unterstützt 
 
 ## 5. Durchführung vorbereiten
 
-Halte Aufgaben, erwartete Ergebnisse, optionale Hilfen und einen Plan für einen einzelnen ausgefallenen Arbeitsplatz bereit. Plane Pausen und gemeinsame Zwischenkontrollen ein. Die [Vorlagen](https://schulungen.svws-nrw.de/schulungsmodule/vorlagen.html) unterstützen die Planung.
+Halte Aufgaben, erwartete Ergebnisse, optionale Hilfen und einen Plan für einen einzelnen ausgefallenen Arbeitsplatz bereit. Plane Pausen und gemeinsame Zwischenkontrollen ein. Die [Vorlagen](./vorlagen.md) unterstützen die Planung.
 
 ## Abnahme
 
