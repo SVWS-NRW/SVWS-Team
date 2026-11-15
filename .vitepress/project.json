@@ -1,0 +1,19 @@
+{
+  "repo": "SVWS-NRW/SVWS-Team",
+  "site": "SVWS Team-Hub",
+  "articleRoots": [
+    "Datenbanken",
+    "Fachberatung_Anleitungen",
+    "Fachberatung_Fortbildungen",
+    "Tipp_der_Woche",
+    "beratung",
+    "fortbildung",
+    "moderation",
+    "neu-im-team",
+    "technik",
+    "umgebungen",
+    "wissen",
+    "hilfe",
+    "bilder"
+  ]
+}

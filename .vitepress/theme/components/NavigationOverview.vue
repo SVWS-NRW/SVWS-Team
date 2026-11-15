@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { withBase } from 'vitepress'
-import navigation from '../../sidebar.json'
+import navigation from '../../navigation.json'
 import { overviewRows } from '../../overview.mjs'
 
 const props = defineProps({ path: { type: String, required: true }, label: { type: String, required: true } })
