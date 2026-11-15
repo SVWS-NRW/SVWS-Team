@@ -5,14 +5,14 @@ hero:
   name: SVWS Team
   actions:
     - theme: brand
-      text: Fachberatung
-      link: /beratung/
-    - theme: alt
-      text: Moderation
-      link: /moderation/
-    - theme: alt
       text: Neu im Team
       link: /neu-im-team/
+    - theme: alt
+      text: SVWS-Doku
+      link: https://doku.svws-nrw.de/
+    - theme: alt
+      text: SchILD3-Doku
+      link: https://schild3.svws-nrw.de/
 features:
   - title: "Neu im Team"
     details: "Ankommen, Rollen kennenlernen und verlässliche Kommunikationswege finden."
