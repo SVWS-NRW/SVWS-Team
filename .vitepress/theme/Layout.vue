@@ -9,6 +9,8 @@ import SiteFooter from './SiteFooter.vue'
 import { articleIndexSelection } from './article-index-state'
 import { data as articles } from '../../hilfe/artikel.data.mjs'
 import { articleIndexLink } from '../article-index.mjs'
+import navigation from '../navigation.json'
+import { sectionFor } from '../navigation.mjs'
 
 const data = useData()
 const { page, theme, frontmatter } = data
@@ -34,7 +36,8 @@ function adjacent(offset: number) {
 }
 const contextualNav = computed(() => theme.value.nav.map(item => ({
   ...item,
-  activeMatch: indexMode.value ? (item.link === '/hilfe/' ? '^' : '(?!)') : item.activeMatch || '^' + item.link
+  activeMatch: (indexMode.value ? item.link === '/hilfe/' :
+    item.section === sectionFor(navigation, '/' + page.value.relativePath)) ? '^' : '(?!)'
 })))
 provide(dataSymbol, {
   ...data,

@@ -1,75 +1,37 @@
 ---
 layout: home
-title: SVWS Team
+title: SVWS-Team
 hero:
-  name: SVWS Team
+  name: SVWS-Team
+  tagline: Fachberatung und Moderation
   actions:
     - theme: brand
+      text: Lösung finden
+      link: /beratung/
+    - theme: alt
+      text: Downloads
+      link: /downloads/
+    - theme: alt
       text: Neu im Team
       link: /neu-im-team/
-    - theme: alt
-      text: SVWS-Doku
-      link: https://doku.svws-nrw.de/
-    - theme: alt
-      text: SchILD3-Doku
-      link: https://schild3.svws-nrw.de/
-features:
-  - title: "Neu im Team"
-    details: "Ankommen, Rollen kennenlernen und verlässliche Kommunikationswege finden."
-    link: /neu-im-team/
-    linkText: Einstieg öffnen
-  - title: "Fachberatung"
-    details: "Den Beratungsarbeitsplatz vorbereiten und Supportfälle nachvollziehbar bearbeiten."
-    link: /beratung/
-    linkText: Einstieg öffnen
-  - title: "Moderation"
-    details: "Schulungen vorbereiten, durchführen und nachbereiten."
-    link: /moderation/
-    linkText: Einstieg öffnen
-  - title: "Datenbanken"
-    details: "Testdaten und Schulungsdaten finden sowie Problemdaten geschützt austauschen."
-    link: /Datenbanken/
-    linkText: Einstieg öffnen
-  - title: "Fortbildung"
-    details: "Kenntnisse gezielt aufbauen und aus Demonstrationen nutzbare Anleitungen machen."
-    link: /fortbildung/
-    linkText: Einstieg öffnen
-  - title: "Wissen & Links"
-    details: "Aktuelle Hinweise einordnen, Dokumentationen finden und Probleme nachschlagen."
-    link: /wissen/
-    linkText: Einstieg öffnen
 ---
 
-<span id="im-blick"></span>
-<span id="unsere-wichtigsten-anlaufstellen"></span>
-<span id="gemeinsam-weiterentwickeln"></span>
+<div class="vp-doc portal-home">
 
-<div class="vp-doc portal-home" id="svws-schulungsunterlagen">
-
-## Was möchtest Du jetzt tun?
-
-| Aufgabe | Dein direkter Einstieg |
-| --- | --- |
-| Einen Supportfall übernehmen | [Beratungsablauf](/beratung/ablauf) |
-| Den eigenen PC oder Laptop vorbereiten | [Testumgebung einrichten](/umgebungen/einrichten) |
-| Eine SQLite-Sicherung einer Schule übernehmen | [Problemdatenbanken geschützt austauschen](/Datenbanken/problemdatenbanken) |
-| Eine Schulung organisieren | [Moderation](/moderation/) |
-| Raum und Übungsdaten bereitstellen | [Schulungsumgebung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/) und [Daten nach Modul](/Datenbanken/schulungen/) |
-| Neuerungen oder ein Fehlerbild prüfen | [Aktuelle Hinweise](/wissen/aktuelles) und [Probleme und Lösungen](/beratung/probleme) |
-| Etwas erstmals selbst durchführen | [Lernwege](/fortbildung/lernwege) |
-
-## Neueste veröffentlichte Hinweise
+## Aktuelle Hinweise
 
 <LatestTips />
 
-Die Tabelle wird aus den vorhandenen datierten [SchILD- und SVWS-Tipps](/wissen/aktuelles) erzeugt. Prüfe den Programmstand vor der Anwendung.
+[Alle Hinweise nach Datum](/wissen/aktuelles)
 
-## Verlässliche Quellen nutzen
+## Direkt zur Aufgabe
 
-Dieses Portal beschreibt Arbeitsabläufe für Fachberatung und Moderation. Die ausführliche Programmbedienung und Installation bleiben in den zuständigen Dokumentationen. [Wichtige Links](/wissen/links) erschließt diese Quellen; die [Umstiegsorientierung](/wissen/umstieg) hilft beim Vergleich SchILD2/SchILD3.
-
-## Wissen gemeinsam pflegen
-
-Im [Fortbildungsarchiv](/Fachberatung_Fortbildungen/) bleiben Termine und Materialien erhalten. Eine Agenda ist keine vollständige Anleitung; der [Inhaltsstand](/fortbildung/inhaltsstand) macht offene Nachbereitungen sichtbar. Über [Kommunikation im Team](/neu-im-team/kommunikation) kannst Du Fragen und Erfahrungen einbringen.
+| Ich suche … | Einstieg |
+| --- | --- |
+| Eine Lösung oder Diagnosehilfe | [Lösungen nach Thema](/beratung/) |
+| Test- oder Schulungsdaten | [Downloads](/downloads/) |
+| Schulungsunterlagen und einen Raumaufbau | [Moderation](/moderation/) |
+| Kontakte, Zugänge oder interne Fortbildung | [Team](/team/) |
+| Programmbedienung und Installation | [SVWS-Doku](https://doku.svws-nrw.de/) · [SchILD3-Doku](https://schild3.svws-nrw.de/) · [SchILD2-Doku](https://schild2.svws-nrw.de/) |
 
 </div>

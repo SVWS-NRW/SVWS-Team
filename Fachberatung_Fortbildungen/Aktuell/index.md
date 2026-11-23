@@ -1,11 +1,7 @@
 # Entwicklungsstand: bisherige Fortbildungsunterlagen {#infos-zum-aktuellen-entwicklungsstand}
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Aktuelle Hinweise einordnen](/wissen/aktuelles). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Aktuelle Hinweise einordnen](/wissen/aktuelles).
 
 Aktuell entwickeln sich SchILD-NRW3 und der SVWS-Server sehr dynamisch weiter, was für Fachberater regelmäßige Informationsbedarfe mit sich bringt.
 

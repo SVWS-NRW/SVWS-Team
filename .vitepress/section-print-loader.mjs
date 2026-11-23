@@ -1,4 +1,6 @@
 import { createContentLoader } from 'vitepress'
+import { readFileSync } from 'node:fs'
+import { recentTips } from './recent.mjs'
 import navigation from './navigation.json' with { type: 'json' }
 import { sectionPrintEntries, canonicalArticle } from './section-print.mjs'
 import { printImageUrl } from './image-catalog.mjs'
@@ -16,6 +18,15 @@ function renderOverview(_match, url) {
     '<tr><td>' + (row.link ? '<a href="' + escape(row.link) + '">' + escape(row.text) + '</a>' : escape(row.text)) +
     '</td><td>' + escape(row.description) + '</td></tr>').join('') + '</tbody></table>'
 }
+function renderLatestTips() {
+  const tips = recentTips([
+    { product: 'SchILD', source: readFileSync(new URL('../wissen/schild-tipps.md', import.meta.url), 'utf8') },
+    { product: 'SVWS', source: readFileSync(new URL('../wissen/svws-tipps.md', import.meta.url), 'utf8') }
+  ])
+  return '<table><thead><tr><th>Datum</th><th>Programm</th><th>Hinweis</th></tr></thead><tbody>' + tips.map(tip =>
+    '<tr><td>' + escape(tip.date) + '</td><td>' + escape(tip.product) + '</td><td><a href="' + escape(tip.link) + '">' + escape(tip.title) + '</a></td></tr>'
+  ).join('') + '</tbody></table>'
+}
 export function createSectionPrintLoader(section) {
   const menus = printNavigation()
   const entries = sectionPrintEntries(menus, section)
@@ -31,6 +42,7 @@ export function createSectionPrintLoader(section) {
         const title = page.frontmatter.title || page.html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/)?.[1].replace(/<a\b[^>]*class="header-anchor"[\s\S]*?<\/a>/, '').replace(/<[^>]+>/g, '').trim() || entry.label
         let html = page.html.replace(/<img\b[^>]*?\bsrc="([^"]+)"/g, (all, src) => all.replace('src="' + src + '"', 'src="' + escape(printImageUrl(normalize(src),entry.path)) + '"'))
           .replace(/<NavigationOverview\b[^>]*\bpath="([^"]+)"[^>]*\/>/g, renderOverview)
+          .replace(/<LatestTips\s*\/>/g, renderLatestTips)
           .replace(/<ImageCatalog\s*\/>/g, '<p>Die Bildsuche steht im <a href="/bilder/">Bilderkatalog</a> zur Verfügung.</p>')
         if (entry.key === '/hilfe/alle-artikel') {
           const { default: articleIndex } = await import('../hilfe/artikel.data.mjs')

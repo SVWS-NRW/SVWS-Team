@@ -1,11 +1,7 @@
 # Fortbildung: Betreute Installation von VirtualBox für Einsteiger
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [VirtualBox und Debian-VM](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [VirtualBox und Debian-VM](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/).
 
 Inhalte:
 

@@ -1,5 +1,5 @@
 ---
-title: Fortbildung – Druckansicht
+title: Team – Druckansicht
 search: false
 outline: false
 prev: false
@@ -10,6 +10,6 @@ next: false
 import { data } from './fortbildung.data.mjs'
 </script>
 
-# Fortbildung – Druckansicht
+# Team – Druckansicht
 
 <SectionPrintBook :articles="data.articles" :title="data.title" />

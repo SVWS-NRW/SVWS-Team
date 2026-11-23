@@ -1,10 +1,6 @@
 # Schulungsumgebung betreuen und zurücksetzen
 
-## Zuerst den Aufbau feststellen
-
-Diese Anleitung unterscheidet den **allgemeinen Betriebsablauf** von einer **historischen Wartungsoberfläche eines bestimmten Schulungsraums**. Nicht jeder Docker- oder Proxmox-Server besitzt diese Oberfläche.
-
-Lass Dir von der Stützpunktleitung Aufbau, Verwaltungsadresse, Arbeitsplatz-/Schema-Zuordnung und Rücksetzweg zeigen. Verwende ausschließlich die dafür übergebenen Zugänge. Ein Passwort wird nicht aus Andeutungen im Artikel abgeleitet.
+Lass Dir von der Stützpunktleitung Verwaltungsadresse, Platz-/Schema-Zuordnung und Rücksetzweg geben.
 
 ## Vor dem ersten Schulungstag
 
@@ -45,7 +41,9 @@ Ein kontrollierter Skriptaufruf ist unter [Installationsskripte](../Installation
 
 Bei Fehlern nicht ohne Prüfung Datenbanken ersetzen: Zuerst Server-/Datenbankdienst, Netz, Zertifikat, Zugang und gewähltes Schema kontrollieren. Das Ausbleiben einer Verbindung beweist nicht, dass Server heruntergefahren sind.
 
-## Historische Raumoberfläche {#historische-raumoberflaeche}
+## Frühere Raumoberfläche {#historische-raumoberflaeche}
+
+::: details Bildfolge eines früheren Raumaufbaus
 
 Die folgenden Bilder dokumentieren einen konkreten Aufbau mit virtuellen Windows-Arbeitsplätzen. Sie sind **keine allgemeine Oberfläche von SVWS, Docker oder Proxmox**. Die zugehörige Webanwendung ist nicht Bestandteil der hier geprüften Skriptsammlung; ihre Aktionen konnten nicht ausgeführt und verifiziert werden.
 
@@ -96,6 +94,8 @@ Die alte Oberfläche verwendete getrennte Uploadschritte für Komponenten. Nutze
 ![Update des SVWS-Servers](Bilder/Wartung/SVWS-Update3.png)
 
 Die Altbeschreibung nennt einen Neuaufbau der Server und ein erneutes Einspielen der Datenbanken. Behandle diese Aktion deshalb als potenziell vollständigen Rücksetzvorgang, bis der Betreiber den tatsächlichen Ablauf bestätigt hat. Die Eingabe alter und neuer Versionsnummern und das Neuladen des Browsers sind kein Nachweis für erhaltene Daten oder ein gelungenes Update.
+
+:::
 
 ## Übergabe nach der Wartung
 

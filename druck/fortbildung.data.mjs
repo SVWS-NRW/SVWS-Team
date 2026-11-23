@@ -1,2 +1,2 @@
 import { createSectionPrintLoader } from '../.vitepress/section-print-loader.mjs'
-export default createSectionPrintLoader("fortbildung")
+export default createSectionPrintLoader("team")

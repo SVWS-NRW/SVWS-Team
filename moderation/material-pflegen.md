@@ -1,34 +1,18 @@
-# Schulungsmaterial weiterentwickeln
+# Schulungsmaterial pflegen
 
-## Ziel
-
-Aufgaben und Hilfen bleiben verwendbar, auch wenn sich Software oder Daten ändern. Pflege Inhalte gemeinsam mit dem zuständigen Moderationsteam.
-
-## 1. Die passende Inhaltsart wählen
-
-| Inhalt | Richtiger Ort |
+| Inhalt | Pflegeort |
 | --- | --- |
-| Arbeitsauftrag, Lernziel und erwartetes Ergebnis | Schulungsmodul |
-| Bedienungsanleitung und Unterschiede SchILD2/SchILD3 | SchILD3-Dokumentation |
-| Server- und AdminClient-Funktion | SVWS-Dokumentation |
-| Auswahl des Raumaufbaus und Raumabnahme | Schulungsumgebung im Portal |
-| Konkreter Datenstand und Modulzuordnung | Schulungsdatenbanken im Portal |
-| Veranstaltungsdatum und Begleitmaterial | Fortbildungsseite |
+| Aufgabe, Lernziel und erwartetes Ergebnis | Schulungsmodul |
+| Programmbedienung | SchILD- oder SVWS-Dokumentation |
+| Datenstand und Modulzuordnung | [Schulungsdatenbanken](/Datenbanken/schulungen/) |
+| Datum und Begleitmaterial einer Veranstaltung | Fortbildungsarchiv |
 
-Verlinke bestehende Fachartikel gezielt. Fehlt dort eine Erklärung, wird sie am zuständigen Hauptort ergänzt; im Modul bleibt die Aufgabe.
+## Vor der Veröffentlichung
 
-## 2. Einen Arbeitsauftrag ausformulieren
+- Ausgangsdatei, Programmversionen und erwartetes Ergebnis nennen.
+- Aufgaben mit dem angegebenen Datenstand selbst durchführen und durch eine zweite Person erproben lassen.
+- Hilfen und Lösungen getrennt von den Arbeitsaufträgen bereitstellen.
+- Links, Bilder und Rücksetzweg prüfen.
+- Änderung mit dem Moderationsteam abstimmen und als Pull Request gegen dev einreichen.
 
-Nenne Ausgangslage, Ziel, konkrete Handlung und eine erkennbare Erfolgskontrolle. Gib Hilfen getrennt von der Aufgabe an. Verwende feste Personen- oder Klassenbeispiele nur, wenn sie im vereinbarten Datenstand zuverlässig vorkommen.
-
-## 3. Datenstand und Version prüfen
-
-Führe den Auftrag mit der angegebenen Datei und den dokumentierten Versionen aus. Passe die [modulbezogene Datenseite](/Datenbanken/schulungen/) an, wenn sich der benötigte Ausgangszustand ändert. Veröffentliche keine neue Dateikopie unter einem zweiten unklaren Namen.
-
-## 4. Eine zweite Person erproben lassen
-
-Eine Person, die den Ablauf nicht selbst geschrieben hat, sollte ihn nachvollziehen. Prüfe dabei auch Links, Menüzuordnung und Rücksetzweg. Die [Vorlagen](./vorlagen.md) helfen bei konsistenten Materialien.
-
-## 5. Erkenntnisse dauerhaft sichern
-
-Aus einer Fortbildung oder Demonstration entsteht eine Anleitung erst durch Ausarbeitung und Prüfung. Der [Dokumentationsablauf](/fortbildung/dokumentieren.html) beschreibt die Übergabe. Bis dahin bleibt fehlender Inhalt ausdrücklich erkennbar.
+[Vorlagen](./vorlagen.md) · [Fortbildungen dokumentieren](/fortbildung/dokumentieren) · [Redaktion](/hilfe/redaktion)

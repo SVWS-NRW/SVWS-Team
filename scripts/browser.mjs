@@ -38,7 +38,7 @@ try{
   const response=await page.goto(base+route,{waitUntil:'networkidle'})
   assert.equal(response.status(),200,route)
  }
- const headings=project.repo.endsWith('SVWS-Schulungen')?['Arnsberg','Detmold','Düsseldorf','Köln','Münster','Hilfe']:['Neu im Team','Fachberatung','Moderation','Datenbanken','Fortbildung','Wissen & Links','Hilfe']
+ const headings=project.repo.endsWith('SVWS-Schulungen')?['Arnsberg','Detmold','Düsseldorf','Köln','Münster','Hilfe']:['Aktuelles','Lösungen','Downloads','Moderation','Team','Hilfe']
  await page.setViewportSize({width:1440,height:900})
  await view('/')
  for(const [label,route] of [['Impressum','impressum'],['Datenschutzerklärung','datenschutz'],['Barrierefreiheitserklärung','barrierefreiheit'],['Leichte Sprache','leichtesprache'],['Lizenz','LICENSE']]){
@@ -53,9 +53,9 @@ try{
  assert.deepEqual(await page.locator('.VPHero .actions a').evaluateAll(links=>links.map(link=>[
   link.textContent.trim(),link.getAttribute('href')
  ])),[
-  ['Neu im Team','/neu-im-team/'],
-  ['SVWS-Doku','https://doku.svws-nrw.de/'],
-  ['SchILD3-Doku','https://schild3.svws-nrw.de/']
+  ['Lösung finden','/beratung/'],
+  ['Downloads','/downloads/'],
+  ['Neu im Team','/neu-im-team/']
  ])
  for(const section of navigation.nav){
   await view(section.link)
@@ -63,31 +63,19 @@ try{
   const sidebar=page.locator('#VPSidebarNav')
   assert.equal(await sidebar.locator('.VPSidebarItem.level-0').count(),1,section.text)
   assert.equal(await sidebar.getByText('Weitere Bereiche',{exact:true}).count(),0,section.text)
-  const entries=(await sidebar.locator('.VPSidebarItem.level-1 > .item a').allTextContents()).map(text=>text.trim())
-  if(section.link==='/neu-im-team/'){
-   assert.equal((await sidebar.locator('.VPSidebarItem.level-0 > .item').innerText()).trim(),'Neu im Team')
-   assert.deepEqual(entries,['Rubrik drucken','Erste Schritte','Kommunikation','Zusammenarbeit'])
-  }
-  if(section.link==='/Datenbanken/'){
-   assert.deepEqual(entries,['Rubrik drucken','Übersicht','Testdatenbanken','Schulungsdatenbanken','Problemdatenbanken'])
-  }
+  assert.deepEqual((await page.locator('.VPNavBarMenu > a.active').allTextContents()).map(text=>text.trim()),[section.text],section.link)
  }
- await view('/moderation/')
- const sidebarLinks=await page.locator('#VPSidebarNav a').allTextContents()
- assert.deepEqual(sidebarLinks.slice(0,7).map(text=>text.trim()),['Rubrik drucken','Übersicht','Schulung vorbereiten','Schulung durchführen','Schulung nachbereiten','Schulungsvorlagen','Material weiterentwickeln'])
- await view('/beratung/arbeitsplatz.html')
- const workplace=page.locator('#VPSidebarNav .VPSidebarItem.level-1').filter({has:page.getByRole('link',{name:'Arbeitsplatz vorbereiten',exact:true})})
- const children=(await workplace.locator('.VPSidebarItem.level-2 > .item a').allTextContents()).map(text=>text.trim())
- assert.deepEqual(children,['Testumgebung','Ergänzende Installationsbilder'])
- await view('/moderation/')
- const moderation=(await page.locator('#VPSidebarNav .VPSidebarItem.level-1 > .item a').allTextContents()).map(text=>text.trim())
- assert.equal(moderation.at(-1),'Schulungsumgebung')
- for(const [route,section] of [['/umgebungen/einrichten.html','Fachberatung'],['/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/','Fachberatung'],['/Fachberatung_Anleitungen/Test-_und_Schulungsserver/','Moderation']]){
+ for(const [route,section] of [['/umgebungen/einrichten.html','Team'],['/umgebungen/lokale-analyse.html','Lösungen'],['/Fachberatung_Anleitungen/Test-_und_Schulungsserver/','Moderation'],['/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/','Downloads'],['/fortbildung/dokumentieren.html','Hilfe']]){
   await view(route)
   assert.deepEqual((await page.locator('.VPNavBarMenu > a.active').allTextContents()).map(text=>text.trim()),[section],route)
  }
- await view('/technik/')
- await page.waitForURL('**/Datenbanken/')
+ for(const [from,to] of [['/beratung/arbeitsplatz.html','/umgebungen/einrichten'],['/moderation/durchfuehren.html','/moderation/vorbereiten#durchfuehrung'],['/Datenbanken/','/downloads/'],['/technik/','/downloads/']]){
+  await view(from)
+  await page.waitForURL(url=>url.pathname+url.hash===to||url.pathname+url.hash===to.replace(/(#|$)/,'.html$1'))
+ }
+ await view('/beratung/arbeitsplatz.html?artikel=az')
+ await page.waitForURL('**/umgebungen/einrichten?artikel=az')
+ await page.locator('#VPSidebarNav a[href*="artikel=az"]').first().waitFor({state:'attached'})
  const article='/hilfe/github-editor.html'
  for(const width of [1440,390]){
   await page.setViewportSize({width,height:900})
@@ -115,6 +103,10 @@ try{
  await page.locator('.article-editor-link').first().waitFor()
  assert.equal(await page.locator('.article-editor-link').first().getAttribute('href'),'https://github.com/'+project.repo+'/edit/dev/WORKFLOW.md')
  await view('/hilfe/alle-artikel.html')
+ const indexTitles=await page.locator('.article-index a').allTextContents()
+ assert(!indexTitles.includes('Alle Artikel A–Z'))
+ assert(!indexTitles.some(title=>title.includes('Hier kommt dein')))
+ assert.equal(await page.locator('.article-index a[href*="beratung/arbeitsplatz"]').count(),0)
  assert.ok(await page.locator('.article-index a').count()>10)
  assert.match(await page.locator('.article-index a').first().getAttribute('href'),/artikel=az/)
  await view('/hilfe/github-editor.html?artikel=az')

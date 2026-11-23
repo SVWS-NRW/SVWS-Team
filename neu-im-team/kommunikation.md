@@ -1,39 +1,27 @@
-# Kommunikation & Zugänge
+# Kontakte und Zugänge
 
-Das SVWS Team-Hub ist eine öffentlich erreichbare Wissensdatenbank. Es bündelt vorhandene Materialien und Lösungswissen für Fachberatung und Moderation aus allen Bezirksregierungen. Der Austausch erfolgt im Forum, über die Koordinatorinnen und Koordinatoren und auf der jährlichen Convention in Düsseldorf.
+| Anliegen | Kontakt oder Zugang |
+| --- | --- |
+| Rückfrage an die Landesfachberatung | [support@svws-nrw.de](mailto:support@svws-nrw.de), Anne, David und Jens; telefonischer Kontakt ist ebenfalls möglich |
+| Koordination und Informationen der Bezirksregierung | Zuständige Fachberater-Koordination |
+| Austausch im Team | [SVWS-Forum](https://schulverwaltungsinfos.nrw.de/svws/forum/index.php), geschützter Fachberaterbereich |
+| Datenbanken, Skripte und interne Werkzeuge | Fachberatercloud; Zugang über Koordination oder Supportadresse |
+| Fortbildungen und Jahrestreffen | [Interne Fortbildung](/fortbildung/) · [Convention](/fortbildung/convention) |
 
-## Informationen über die Bezirksregierungen
+## Newsletter {#newsletter}
 
-Die Landesfachberatung verteilt Informationen im Kern über die Fachberater-Koordinationen der Bezirksregierungen. Diese leiten die Informationen an ihre Fachberaterinnen und Fachberater weiter. Über Deine zuständige Koordination bleibst Du mit diesem Informationsfluss verbunden.
+Schreibe für die Aufnahme an [support@svws-nrw.de](mailto:support@svws-nrw.de). Nenne Vor- und Nachname, Fachberater-E-Mail-Adresse, Bezirksregierung und Tätigkeit in Fachberatung oder Moderation. Optional kannst Du eine andere bevorzugte E-Mail-Adresse, einen Spitznamen und eine für Schule oder Team freigegebene Telefonnummer angeben.
 
-## Newsletter
+Informationen der Landesfachberatung werden außerdem über die Koordinationen der Bezirksregierungen weitergeleitet.
 
-Für die Aufnahme in den Verteiler schreibst Du an [support@svws-nrw.de](mailto:support@svws-nrw.de). Nenne bitte:
+## Fachberatercloud {#fachberatercloud}
 
-- Nachname und Vorname; optional einen Spitznamen,
-- Deine Fachberater-E-Mail-Adresse,
-- optional eine andere bevorzugte E-Mail-Adresse,
-- zuständige Bezirksregierung und Tätigkeit: Fachberatung oder Moderation,
-- optional Telefon- oder Mobilnummer, unter der Schulen beziehungsweise das Team Dich erreichen dürfen.
+Link und Fachberater-Passwort erhältst Du über Deine Koordination oder die Supportadresse. Dort liegen unter anderem Schulungsdatenbanken, Skripte, Werkzeuge, Beta-Versionen und Installationsunterlagen.
 
-Ohne alternative Adresse wird die Fachberater-E-Mail-Adresse verwendet. Der Newsletter informiert unter anderem über Neuigkeiten und Netzwerktreffen.
+## Forum und geschützter Austausch {#forum-geschutzter-austausch}
 
-## Fachberatercloud
+Lege im Forum einen Account an und kläre die Freischaltung für den Fachberaterbereich über Koordination oder Supportadresse. Du kannst Kategorien abonnieren und ungelesene oder unbeantwortete Beiträge anzeigen lassen.
 
-Die Fachberatercloud stellt Schulungsdatenbanken, Skripte, Werkzeuge, Beta-Versionen und Installationsunterlagen bereit. Den Link und das Fachberater-Passwort erhältst Du über die Koordinatorinnen und Koordinatoren oder die zentrale Supportadresse.
+## An Dokumentation und Entwicklung mitarbeiten
 
-## Forum & geschützter Austausch
-
-Im [SVWS-Forum](https://schulverwaltungsinfos.nrw.de/svws/forum/index.php) findest Du Fragen und Lösungen aus der Praxis. Suche zunächst nach bestehenden Beiträgen. Du kannst selbst einen Account anlegen; kläre bei Bedarf die Berechtigung für den geschützten Fachberaterbereich über die Koordination oder die zentrale Supportadresse.
-
-Mit einem Account kannst Du Kategorien abonnieren und ungelesene oder unbeantwortete Fragen gezielt anzeigen lassen. Unklare Fehlerbilder und Verbesserungsvorschläge können im Fachberaterbereich gemeinsam eingeordnet werden.
-
-## Fragen an das Team
-
-Wenn Du mit einem Beratungsfall nicht weiterkommst, erreichst Du die Landesfachberatung mit Anne, David und Jens in der Regel über [support@svws-nrw.de](mailto:support@svws-nrw.de). Auch telefonischer Kontakt ist möglich. IT-Dienstleister werden ebenfalls durch die Landesfachberatung betreut. Für Zuständigkeiten hilft Dir die [Rollenübersicht](./rollen.md), für die Vorbereitung einer Rückfrage die [Checkliste für Beratungsfälle](/beratung/anfrage-vorbereiten).
-
-## An Dokumentation & Entwicklung mitarbeiten
-
-Wenn Du in der SchILD3-Dokumentation mitarbeiten möchtest, beginne mit [Mitarbeiten](https://schild3.svws-nrw.de/hilfe/mitarbeiten.html). Die Anleitungen [Artikel schreiben](https://schild3.svws-nrw.de/hilfe/artikel-schreiben.html) und [Markdown und Gestaltung](https://schild3.svws-nrw.de/hilfe/markdown-und-gestaltung.html) helfen Dir beim Einstieg.
-
-Auf [GitHub](https://github.com/SVWS-NRW) werden Quelltexte, Reports und Entwicklungsstände verwaltet. Für eigene Issues brauchst Du einen GitHub-Account. Suche vorher nach vorhandenen Meldungen. Du kannst Dein Anliegen auch zunächst im Fachberaterforum besprechen.
+[Redaktion](/hilfe/redaktion) erklärt die Mitarbeit am Portal. Für die SchILD3-Dokumentation gibt es eine eigene [Anleitung zur Mitarbeit](https://schild3.svws-nrw.de/hilfe/mitarbeiten.html). Programmfehler und Releases findest Du über die [Projektlinks](/wissen/links#entwicklung-fehlermeldungen).

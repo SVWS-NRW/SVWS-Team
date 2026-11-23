@@ -1,9 +1,7 @@
 # Öffnen der Datenbanken mit DBeaver
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 
 ### Installation von DBeaver
 Installiere DBeaver, sofern das Programm noch nicht auf Deinem Rechner installiert ist:
@@ -24,8 +22,6 @@ https://dbeaver.io/download/
 
 4. Über die linke Leiste können einen Tabellen ausgewählt und gesichtet werden:   
 ![Tabelle eigeneSchule](./graphics/DBeaver_DB.png)
-
-
 
 > [!TIP] 
 > Bei Problemen sollte man diese Einstellung einmal überprüfen:

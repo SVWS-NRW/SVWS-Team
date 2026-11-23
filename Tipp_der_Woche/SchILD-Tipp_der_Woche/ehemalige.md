@@ -1,22 +1,17 @@
-# Hier kommt dein SchILD-Tipp der Woche...
+# Schülerstatus Ehemalige verwenden
 
+**Veröffentlicht am 11.05.2026.**
 
-Wusstest du schon, dass es einen **Status Ehemalige** bei den Schülern gibt? 
+Den Status **Ehemalige** kannst Du in SchILD-NRW 3 und im SVWS-Client über den Schnellfilter auswählen.
 
-
-
-Und jetzt kommt’s: Bei manchen Schulen befinden sich nach der Migration sogar Schüler in der Auswahl „Ehemalige“. 🤔
-
-
+Nach einer Migration können bereits Datensätze mit diesem Status vorliegen.
 
 Der Status "Ehemalige" ist nämlich gar nicht neu. Er ist aber bei SchILD2 ein wenig versteckt. Man findet ihn dort nur beim Filter I als Auswahlkriterium:
-
 
 | ![Ehemalige filtern in SchILD2](./graphics/schildtipp_ehemalige1.png)  |
 |---------------|
 
 In SchILD3 und im SVWS-Client kann man ehemalige Schüler auch direkt im Schnellfilter auswählen:
-
 
 | ![Schnellfilter - Ehemalige](./graphics/schildtipp_ehemalige2.png)  |
 |---------------|
@@ -31,6 +26,4 @@ Beim Prüfen der Löschfristen gibt es die Option, die Basisdaten für die Ehema
 | ![Löschfristen prüfen](./graphics/schildtipp_ehemalige3.png)  |
 |---------------|
 
-
-:back: [Zurück zu den Tipps der Woche](./../index.md)   
-
+[Weitere Lösungen](/beratung/) · [Hinweise nach Datum](/wissen/aktuelles)

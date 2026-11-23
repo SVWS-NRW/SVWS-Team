@@ -1,11 +1,7 @@
 # Fortbildung: Kursblockung für die Oberstufe
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Passenden Lernweg wählen](/fortbildung/lernwege). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Passenden Lernweg wählen](/fortbildung/lernwege).
 
 
 ### Fokus der Fortbildung
@@ -33,13 +29,4 @@ Im Unterschied zu den bisherigen separaten Fortbildungen "Blockung der EF" und "
 
 ### Voraussetzungen
 Alle Fachberater:Innen und Moderator:Innen sind herzlich willkommen - mit und ohne Vorerfahrung im Bereich der Oberstufenblockung.   
-Es wird jedoch darauf hingewiesen, dass grundlegende Themen wie das Erstellen einer Allgemeinen Vorlage, das Anlegen eines Abiturjahrgangs, das Ausfüllen einer Fachwahl beim Schüler oder die Standardvorbereitung einer Blockung mithilfe von Regeln nicht Bestandteil der Fortbildung sind. 
-
-
-
-
-
-
-
-
-
+Es wird jedoch darauf hingewiesen, dass grundlegende Themen wie das Erstellen einer Allgemeinen Vorlage, das Anlegen eines Abiturjahrgangs, das Ausfüllen einer Fachwahl beim Schüler oder die Standardvorbereitung einer Blockung mithilfe von Regeln nicht Bestandteil der Fortbildung sind.

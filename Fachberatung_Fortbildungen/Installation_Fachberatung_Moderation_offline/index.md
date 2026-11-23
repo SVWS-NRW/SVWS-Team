@@ -1,13 +1,13 @@
-# Ergänzende Installationsunterlagen
+# Installationsbilder im Archiv
 
-<span id="installation"></span>
+Die folgenden älteren Bildfolgen ergänzen [Testplatz einrichten](/umgebungen/einrichten). Dialoge und Versionen können abweichen.
 
-Diese Sammlung erhält die früheren Bildfolgen zu Server, Zertifikat, SchILD-NRW 3, AdminClient, DBeaver und Protokollen. Für eine neue Installation beginnt der geführte Weg unter [PC oder Laptop einrichten](/umgebungen/einrichten). Screenshotwerte werden nicht ungeprüft übernommen.
-
-## Bildfolgen und Handout
-
-<NavigationOverview path="/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/" label="Unterlage" />
-
-## Einordnung
-
-Die Bildfolgen sind ergänzende Materialien verschiedener Entstehungsstände. Eine aktuelle Installation wird anhand der offiziellen Dokumentation durchgeführt und anschließend mit dem tatsächlich verwendeten Datenstand geprüft. Die [Testumgebung](/umgebungen/) zeigt den vollständigen Arbeitsweg.
+| Thema | Bildfolge |
+| --- | --- |
+| Server installieren | [SVWS-Server](./Installation_SVWS/index.md) |
+| Arbeitsplatz anbinden | [SchILD-NRW 3](./Installation_SchILD3/index.md) · [Zertifikat](./Installation_Zertifikat/index.md) |
+| Datenbanken verwalten | [AdminClient](./AdminTool/index.md) |
+| Daten untersuchen | [DBeaver](./DBeaver/index.md) |
+| Protokolle finden | [Logdateien](./Log_Files/index.md) |
+| Client kennenlernen | [Sichten](./SVWS_Client_Sichten/index.md) |
+| Früherer Schulungsablauf | [Handout](./Handout/index.md) |

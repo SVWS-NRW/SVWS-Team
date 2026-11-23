@@ -1,25 +1,26 @@
-# Willkommen im SVWS-Team
+# Neu im Team
 
-Schön, dass Du dabei bist! Hier findest Du Orientierung für Deine Arbeit als Fachberaterin, Fachberater, Moderatorin oder Moderator. Wir sprechen uns im Team mit „Du“ an und helfen einander bei Fragen aus Beratung und Schulung.
+Willkommen in der Fachberatung und Moderation. Für Deinen Einstieg brauchst Du die Teamzugänge und einen eigenen Testplatz.
 
-## Deine ersten Schritte
+## Zugänge klären
 
-- [ ] Zuständige Koordination kennenlernen und die eigene Aufgabe klären.
-- [ ] [Für den Newsletter anmelden](./kommunikation.md#newsletter): Er hält Dich über Informationen und Netzwerktreffen auf dem Laufenden.
-- [ ] Im [SVWS-Forum](https://schulverwaltungsinfos.nrw.de/svws/forum/index.php) registrieren; die Freischaltung für den geschützten Fachberaterbereich gegebenenfalls klären.
-- [ ] Zugang zur Fachberatercloud über die Koordination oder [support@svws-nrw.de](mailto:support@svws-nrw.de) erfragen.
-- [ ] Die [zentralen Dokumentationen und Informationsquellen](/wissen/links) kennenlernen.
-- [ ] Den [Zusammenhang von Server, MariaDB und SchILD-NRW 3](/beratung/systemueberblick) kennenlernen.
-- [ ] Eine [persönliche Testumgebung](/umgebungen/) mit passenden [Übungsdaten](/Datenbanken/) aufbauen.
-- [ ] Die [Fortbildungsangebote](/fortbildung/) ansehen und einen Themenwunsch einbringen.
+- [ ] Zuständige Koordination kennenlernen und Aufgabe abstimmen.
+- [ ] Für den [Newsletter](./kommunikation.md#newsletter) anmelden.
+- [ ] Im [SVWS-Forum](https://schulverwaltungsinfos.nrw.de/svws/forum/index.php) registrieren und den Fachberaterbereich freischalten lassen.
+- [ ] Zugang zur [Fachberatercloud](./kommunikation.md#fachberatercloud) erfragen.
 
-## Wo findest Du was?
+## Einmal einrichten, anschließend erproben
 
-| Deine Frage | Hier geht es weiter |
+1. [Testplatz einrichten](/umgebungen/einrichten). Die Anleitung führt von der Installation bis zur Wiederherstellungsprobe.
+2. Eine für Deine Schulen typische Aufgabe an einem [Testbestand](/Datenbanken/testdaten/) durchführen.
+3. Je nach Tätigkeit mit dem [ersten Beratungsfall](./beratung.md) oder der [ersten Moderation](./moderation.md) beginnen.
+
+## Vertiefung
+
+| Aufgabe | Material |
 | --- | --- |
-| Welche Aufgaben haben die verschiedenen Rollen? | [Rollen & Zusammenarbeit](./rollen.md) |
-| Wie bleibe ich informiert und wen kontaktiere ich? | [Kommunikation & Zugänge](./kommunikation.md) |
-| Wie bereite ich meine erste Schulung vor? | [Schulung vorbereiten](/moderation/vorbereiten.html) |
-| Wie gehe ich mit einer Rückfrage aus einer Schule um? | [Fachberatung](/beratung/) |
+| Migration und Datenanalyse | [SchILD2 und Migrationstool](/umgebungen/schild2) · [DBeaver und Access](/umgebungen/dbeaver) |
+| Oberstufe, Reporting oder Tools | [Schulungsmodule](https://schulungen.svws-nrw.de/schulungsmodule/) und [Handbücher](/wissen/links) |
+| Austausch und interne Fortbildung | [Team](/team/) |
 
-Diese Orientierung greift das Willkommensschreiben auf und berücksichtigt die aktuelle Aufgabenverteilung im Team. Das Portal ist öffentlich; Zugänge zu geschützten Angeboten erhältst Du über die genannten Kommunikationswege.
+Die [Zuständigkeiten](./rollen.md) zeigen Dir, wer Dich bei offenen Fragen unterstützt.

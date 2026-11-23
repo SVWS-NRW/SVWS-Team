@@ -1,13 +1,7 @@
 # Fortbildung: Schulungskonzept
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Eine Schulung vorbereiten](/moderation/vorbereiten.html). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
-
-
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Eine Schulung vorbereiten](/moderation/vorbereiten.html).
 
 ### Inhalte
 + Schulungsdatenbanken
@@ -22,12 +16,3 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit 
 
 ### Hilfreiche Links
 + Download **Schulungsmaterial**: https://schulungen.svws-nrw.de/schulungsmodule/
-
-
-
-
-
-
-
-
-

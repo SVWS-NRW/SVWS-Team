@@ -1,4 +1,4 @@
-# Wichtige Links
+# Software und Dokumentationen
 
 ## Information, Dokumentation & Beratung {#dokumentation-orientierung}
 
@@ -6,7 +6,6 @@
 | --- | --- |
 | [SVWS-Internetauftritt](https://www.svws.nrw.de/) | Software, Updates, Reports und Serviceangebote |
 | [SVWS-Dokumentation](https://doku.svws-nrw.de/) | Anleitungen und technische Dokumentation zum SVWS-Server und seinen Anwendungen |
-| Neue SchILD-NRW-3-Dokumentation: **schild3.svws-nrw.de** | Vorgesehene neue Adresse; der anklickbare Link folgt nach der Freischaltung |
 | [SchILD3-Doku](https://schild3.svws-nrw.de/) | Bedienungsanleitungen und Fallbeispiele |
 | [SchILD2-Doku](https://schild2.svws-nrw.de/) | Nachschlagen zu SchILD-NRW 2, auch beim Vergleich von Arbeitsabläufen |
 | [SVWS-Forum](https://schulverwaltungsinfos.nrw.de/svws/forum/index.php) | Erfahrungen und Lösungen suchen; geschützter Fachberaterbereich nach Freischaltung |

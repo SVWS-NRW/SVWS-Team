@@ -1,9 +1,7 @@
 # Installation des Zertifikats
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 
 
 ### Zertifikatsdatei suchen
@@ -18,13 +16,7 @@ Eine detailierte Anleitung zur Installation des Zertifikats findest Du im [Wiki]
 
 Achte darauf, das Zertifikat in **Vertrauenswürdige Stammzertifizierung** zu installieren.
 
-
-
 ### Anpassungen für Firefox (optional)
 Chrome und Edge nutzen automatisch diese Zertifikate. Firefox muss die Einstellung security.enterprise_roots.enabled auf true gesetzt haben.
 
 Tippe im Firefox-Browser about:config ein und ändere die entsprechende Einstellung, sofern Du mit Firefox arbeiten möchtest.
-
-
-
-

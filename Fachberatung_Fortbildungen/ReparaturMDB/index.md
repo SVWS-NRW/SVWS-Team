@@ -1,13 +1,7 @@
 # Fortbildung: SchILD2-Datenbanken reparieren
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [SchILD2 und Migrationswege vorbereiten](/umgebungen/schild2). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
-
-
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [SchILD2 und Migrationswege vorbereiten](/umgebungen/schild2).
 
 ### Inhalte
 + Kaputte Datenbanken mit Access öffnen und reparieren
@@ -26,13 +20,3 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen und/oder die gezeigten 
 
 ### Hilfreiche Links
 + Download **Migraitonstool** (Unter kleine Windows Hilfsprogramme): https://www.svws.nrw.de/schild-nrw-2/tools-module
-
-
-
-
-
-
-
-
-
-

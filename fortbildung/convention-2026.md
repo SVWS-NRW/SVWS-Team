@@ -1,5 +1,7 @@
 # SVWS-Convention 2026
 
+**Archiv – Veranstaltung vom 13. November 2026.** Die folgenden Angaben dokumentieren die Einladung.
+
 Die SVWS-Convention ist das Jahrestreffen für Fachberatung und Moderation in NRW. Unter dem Motto **Wissen · Praxis · Austausch** lernst Du aktuelle Entwicklungen der SVWS-Programmfamilie und neue Funktionen kennen und tauschst Erfahrungen aus Beratung und Fortbildung aus.
 
 ## Termin und Veranstaltungsort
@@ -12,11 +14,7 @@ Die SVWS-Convention ist das Jahrestreffen für Fachberatung und Moderation in NR
 | Ort | Ministerium für Schule und Bildung NRW (MSB), Völklinger Straße 49, 40221 Düsseldorf |
 | Zielgruppe | Fachberaterinnen und Fachberater sowie Moderatorinnen und Moderatoren in NRW |
 
-## Rückmeldung zur Teilnahme
-
-Bitte melde Dich über das [Rückmeldeformular zur SVWS-Convention 2026](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Jvc4TFpuSUyUM7T8ohFkjwYALj-e5ttLmz43n-4obxdUOUk3MjI5Q000NVk2WjBRNzJDOE1XRzZONy4u) bis zum **6. November 2026** zurück – auch dann, wenn Du nicht teilnehmen kannst.
-
-## Vorläufiges Programm
+## Vorläufiges Programm der Einladung
 
 ::: info Vorläufiger Stand
 Die Einladung enthält einen vorläufigen Ablauf und mögliche Workshopthemen. Für die einzelnen Workshoprunden sind noch keine genauen Uhrzeiten angegeben.

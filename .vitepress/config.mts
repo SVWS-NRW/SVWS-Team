@@ -28,7 +28,7 @@ export default defineConfig({
                 pageData.frontmatter.latestTips = recentTips([
                     { product: 'SchILD', source: readFileSync('wissen/schild-tipps.md', 'utf8') },
                     { product: 'SVWS', source: readFileSync('wissen/svws-tipps.md', 'utf8') },
-                ]);
+                ], pageData.relativePath === 'index.md' ? 4 : 6);
             }
             if (pageData.frontmatter.layout === 'home') pageData.frontmatter.pageClass = 'schild-home';
             if (pageData.frontmatter.layout !== 'home' && !pageData.relativePath.startsWith('druck/')) {

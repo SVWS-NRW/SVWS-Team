@@ -1,5 +1,5 @@
 ---
-title: Neu im Team – Druckansicht
+title: Team – Druckansicht
 search: false
 outline: false
 prev: false
@@ -10,6 +10,6 @@ next: false
 import { data } from './neu-im-team.data.mjs'
 </script>
 
-# Neu im Team – Druckansicht
+# Team – Druckansicht
 
 <SectionPrintBook :articles="data.articles" :title="data.title" />

@@ -1,5 +1,5 @@
 ---
-title: Wissen & Links – Druckansicht
+title: Aktuelles – Druckansicht
 search: false
 outline: false
 prev: false
@@ -10,6 +10,6 @@ next: false
 import { data } from './wissen-links.data.mjs'
 </script>
 
-# Wissen & Links – Druckansicht
+# Aktuelles – Druckansicht
 
 <SectionPrintBook :articles="data.articles" :title="data.title" />
