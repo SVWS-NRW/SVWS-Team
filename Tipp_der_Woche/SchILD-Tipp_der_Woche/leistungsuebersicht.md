@@ -1,26 +1,22 @@
-# Hier kommt dein SchILDtipp der Woche...
+# Leistungsübersichten für die Oberstufe
 
+**Veröffentlicht am 26.01.2026.**
 
-Wusstest du schon, dass es jetzt auch Übersichten für Leistungsdaten aller Jahrgangsstufen gibt?
+Die Basissammlung enthält Leistungsübersichten für die Oberstufe und Konferenzen.
 
-Und zwar nicht nur als normale Notenübersicht, sondern auch speziell für Konferenzen!
-
-**Download (sind in der Basissammlung):**    
+**Download (sind in der Basissammlung):**
 https://github.com/SVWS-NRW/Schild-NRW-3-Reports/releases
 
-**Anleitung:**    
+**Anleitung:**
 https://schild3.svws-nrw.de/reporting/basisreports/basisreports-downloads-themenuebersicht.html#leistungsubersichten-und-bescheinigungen
 
-
 ### Hier mal ein Beispiel  für die Q2:
-![Leistungsübersicht Q2](./graphics/schildtipp_Leistungsuebersicht1.png)  
-
+![Leistungsübersicht Q2](./graphics/schildtipp_Leistungsuebersicht1.png)
 
 ### Oder als Einzelansicht:
-![Leistungsübersicht Q2 - Einzelansicht](./graphics/schildtipp_Leistungsuebersicht2.png)  
-
+![Leistungsübersicht Q2 - Einzelansicht](./graphics/schildtipp_Leistungsuebersicht2.png)
 
 ### Auch für die Sek-I und für die Grundschule gibt es Übersichten:
-![Leistungsübersicht SekI](./graphics/schildtipp_Leistungsuebersicht3.png)  
+![Leistungsübersicht SekI](./graphics/schildtipp_Leistungsuebersicht3.png)
 
-:back: [Zurück zu den Tipps der Woche](./../index.md)   
+[Weitere Lösungen](/beratung/) · [Hinweise nach Datum](/wissen/aktuelles)

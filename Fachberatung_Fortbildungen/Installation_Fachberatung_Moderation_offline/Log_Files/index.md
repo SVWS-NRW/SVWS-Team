@@ -1,9 +1,7 @@
 # Ordnerstruktur und wichtige Installationsdateien
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 
 
 ### C:\ProgramData\SVWS-Server
@@ -26,5 +24,3 @@ Sichte den Ordner C:\SVWS-Arbeitsverzeichnis. Hier werden u.a. Sicherungen, Repo
 
 * Sichte einmal Deine **Verbindungsdatei**?
 * Welche **Reports** werden bei der Installation bereits ausgerollt?
-
-

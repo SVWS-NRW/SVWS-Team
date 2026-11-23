@@ -1,13 +1,7 @@
 # Fortbildung: Migration und Datanbanksicherung
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Daten importieren und Wiederherstellung prüfen](/umgebungen/testdaten). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
-
-
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Daten importieren und Wiederherstellung prüfen](/umgebungen/testdaten).
 
 ### Inhalte
 
@@ -27,12 +21,3 @@ Im Anschluss können Fragen gestellt werden und/oder die gezeigten Inhalte selbs
 + Download **SchILD3-Version**: https://github.com/SVWS-NRW/Schild3-BetaTest/releases
 + Anleitung zum **Migrieren und Sichern über den Web-Client**:
     + [Admin-Client](https://doku.svws-nrw.de/adminclient/apps/schemata/)
-
-
-
-
-
-
-
-
-

@@ -1,9 +1,7 @@
 # Installation vom SVWS-Server
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 
 ### Download der Installationsdateien
 Lade Dich im SVWS-NRW-Repository die notwendigen Installationspakete herunter.  
@@ -24,17 +22,8 @@ Nach Auswahl des Repositorys SVWS-NRW/SVWS-Server kommt man über Releases auf d
 > [!TIP] 
 > Hier findet man noch viele andere öffentliche Reporitorys von SVWS-NRW. Man erkennt diese direkt an dem NRW-Wappen Icon.
 
-
-
-
 ### Installation Starten
 Führe die Installation als Administrator aus!
 
 > [!TIP] 
 > Eine gute Anleitung findest Du auch im [Wiki](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html#installation-des-svws-servers)
-
-
-
-
-
-

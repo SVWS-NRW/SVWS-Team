@@ -1,9 +1,7 @@
 # Installation
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 In diesem Modul werden wir...
 * den SVWS-Server installieren
 * eine SchILD2-DB migrieren,
@@ -13,8 +11,6 @@ In diesem Modul werden wir...
 * Dantenbanken sichern und wieder einlesen,
 * wichtige Installations-Ordner und log-Dateien kennenlernen und
 * die Datenbankstruktur mit DBeaver sichten.
-
-
 
 ## Installation vom SVWS-Server
 Starte mit der Installation vom [Installation vom SVWS-Server](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/). Wähle hierbei die Option, direkt eine SchILD2 DB zu migrieren.
@@ -51,5 +47,3 @@ Mit Hilfe von DBeaver kann die Datenbank geöffnet und die Datenbankstruktur sow
 ## Admin-Tool
 Mit Hilfe des Tools kann man Datenbanken sichern und einlesen. Man kann weitere Datenbanken migrieren und bestehenden MariaDBs dublizieren:
 /Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/
-
-

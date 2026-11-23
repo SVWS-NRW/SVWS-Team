@@ -1,11 +1,7 @@
 # Fortbildung: Tipps für Supportanfragen 
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Einen Supportfall bearbeiten](/beratung/ablauf). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Einen Supportfall bearbeiten](/beratung/ablauf).
 
 Immer mehr Schulen steigen auf SchILD-NRW 3 und den SVWS-Server um – entsprechend nehmen Nachfragen und Support-Anfragen bei Fachberatern zu.
 
@@ -23,16 +19,3 @@ In der Online-Fortbildung zeige ich anhand konkreter und realistischer Fallbeisp
     + Der Eintrag der Folgeklasse ist ausgegraut
 
 Weitere Nachfragen folgen
-  
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,9 +1,7 @@
 # Installation von SchILD-NRW3
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 ### Download der Installationsdateien
 Lade Dich im SchILD-NRW-Repository die notwendigen Installationspakete herunter.  
 
@@ -38,10 +36,4 @@ Nach der Installation öffnet sich automatisch das Programm **SchILD_DBConfig.ex
 
 > [!TIP] 
 > Eine gute Anleitung findest Du auch im [Wiki](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html#die-verbindung-mit-schild-dbconfig-exe-konfigurieren).
-> 
-
-
-
-
-
-
+>

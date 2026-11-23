@@ -1,9 +1,7 @@
 # Admin-Tool
 
 
-::: info Ergänzende Installationsunterlagen
-Diese erhaltene Bildfolge gehört zur zentralen Testumgebung. Dialoge und Versionsstände können abweichen. Für einen neuen Aufbau beginne mit [PC oder Laptop einrichten](/umgebungen/einrichten); die Originalanleitungen dort sind maßgeblich.
-:::
+Ergänzende ältere Bildfolge. [Aktuelle Einrichtung](/umgebungen/einrichten).
 
 ### Öffnen des Admin-Tools
 Öffne den Administrationsbereich, indem Du in der Suchleiste vom Browser `localhost/admin` tippst. Ggf. musst Du mit der Langversion `https://localhost/admin ` arbeiten. Nach Eingabe des root-Passwortes, welches Du beim Installieren des SVWS-Servers festgesetzt hast, sollte diese Oberfläche sichtbar werden:   
@@ -32,9 +30,3 @@ Erstelle ein leeres Schema und öffne dieses im Client unter Angabe einer Schuln
 
 ### Backup in ein bestehendes Schema importieren
 Importiere das SQLite-Backup in das leere Datenbankschema.
-
-
-
-
-
-

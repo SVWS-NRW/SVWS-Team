@@ -1,47 +1,43 @@
-# PC oder Laptop als Testplatz einrichten
+# Testplatz einrichten
 
-## Ziel und Voraussetzungen
+Für den persönlichen Windows-Testplatz benötigst Du SVWS-Server mit MariaDB, SchILD-NRW 3 und eine Testdatenbank. Ergänze weitere Werkzeuge nach Deinem Beratungsbedarf.
 
-Du richtest einen persönlichen Testplatz mit SVWS-Server, SchILD-NRW 3 und den benötigten Werkzeugen ein. **Die eigentliche Installation erfolgt nach der aktuellen SchILD3-Doku bzw. Herstelleranleitung.** Hier findest Du Reihenfolge, Entscheidungen und Kontrollen.
+## Aufbau wählen {#aufbau-waehlen}
 
-Prüfe zuerst die [Auswahl der Umgebung](./auswahl.md). Benötigt werden geeignete Hardware, die erforderlichen Rechte und ein dokumentierter Installationsstand. Verwende für die erste Probe öffentliche Testdaten.
-
-## 1. Die Originalanleitungen bereitlegen
-
-| Aufgabe | Maßgebliche Anleitung |
+| Ausgangslage | Weg |
 | --- | --- |
-| SVWS-Server unter Windows installieren | [SVWS-Dokumentation: Windows-Installer](https://doku.svws-nrw.de/deployment/Windows-Installer/) |
-| Windows-Einrichtung in der SchILD3-Doku nachvollziehen | [Installation von SVWS-Server und SchILD-NRW 3](https://schild3.svws-nrw.de/administration/installation/installation-svws-server-und-schild-nrw-3.html) |
-| SchILD-NRW 3 verbinden | [SVWS-Dokumentation: SchILD-NRW 3](https://doku.svws-nrw.de/deployment/Schild-NRW3/) |
-| Linux oder Docker bewusst auswählen | [Offizielle Installationsmethoden](https://doku.svws-nrw.de/deployment/) |
-| Programme, Releases und weitere Dokumentationen finden | [Wichtige Links](/wissen/links) |
+| Eigener Windows-PC mit Administrationsrechten | SVWS-Server und SchILD-NRW 3 lokal installieren |
+| Vorhandener betreuter Testserver | Testschema abstimmen und SchILD-NRW 3 am Arbeitsplatz verbinden |
+| Wiederholbare getrennte Serverstände benötigt | Server in einer vorbereiteten VM betreiben; SchILD-NRW 3 auf Windows |
 
-Die neue Adresse der SchILD3-Dokumentation wird in der Linksammlung ergänzt, sobald sie verlässlich erreichbar ist. Eine erwartete Adresse ersetzt keine verfügbare Anleitung.
+Für den ersten eigenen Testplatz führt die folgende Reihenfolge durch die lokale Windows-Installation. Ein zweites Schema teilt Serverversion und Wartung mit den übrigen Schemata. Tests anderer Serverversionen brauchen eine getrennte Instanz.
 
-## 2. Den Server bereitstellen
+## 1. Server installieren
 
-Folge der ausgewählten Originalanleitung. Halte tatsächliche Programmversionen, Verzeichnisse, HTTPS-Adresse, Datenbankadresse und Ports fest. Bewahre Zugangsdaten getrennt von allgemeinen Schulungsunterlagen auf.
+Folge der [Windows-Installationsanleitung](https://doku.svws-nrw.de/deployment/Windows-Installer/). Prüfe vorab Systemvoraussetzungen, Rechte und vorhandene Dienste. Notiere HTTPS-Adresse, MariaDB-Adresse, Ports und Versionen.
 
-Bei vorhandener MariaDB, Java-Umgebung oder einem zweiten SVWS-Dienst lies die Installationsoptionen besonders sorgfältig. Der Windows-Installer kann bestehende Komponenten erkennen und aktualisieren; eine parallele Installation ist deshalb kein unbedenklicher Standardklick.
+**Prüfung** – Der Dienst läuft und die Anmeldung am AdminClient gelingt.
 
-**Kontrolle:** Der Serverdienst läuft, die richtige HTTPS-Adresse ist erreichbar und die Anmeldung am AdminClient gelingt. Ein offenes Browserfenster allein belegt noch keinen korrekten Datenbestand.
+## 2. Testdaten importieren
 
-## 3. Einen ersten Testbestand importieren
+Wähle einen [Testbestand nach Schulform](/Datenbanken/testdaten/) und [importiere ihn in ein eigenes Schema](./testdaten.md).
 
-Folge [Testdaten einspielen](./testdaten.md). Verwende zunächst ein eigenes Schema und einen bekannten öffentlichen Bestand. Notiere dessen Namen und Datenstand.
+**Prüfung** – Der SVWS-Client zeigt die erwartete Schule und den richtigen Abschnitt.
 
-## 4. SchILD-NRW 3 anbinden
+## 3. SchILD-NRW 3 verbinden
 
-Installiere SchILD-NRW 3 nach der Originalanleitung und erstelle mit **SchILD_DBConfig** die passende Verbindungsdatei. Für SchILD-NRW 3 ist derzeit neben HTTPS auch direkter MariaDB-Zugriff erforderlich; übernimm die tatsächlich konfigurierten Adressen und Ports.
+Installiere SchILD-NRW 3 und erstelle mit SchILD_DBConfig die passende Verbindungsdatei. Die [SchILD-Anleitung](https://doku.svws-nrw.de/deployment/Schild-NRW3/) beschreibt die Verbindung. SchILD-NRW 3 benötigt neben HTTPS auch direkten MariaDB-Zugriff.
 
-**Kontrolle:** SchILD-NRW 3 öffnet genau Dein Testschema. Vergleiche Schulform und Schuljahresabschnitt mit dem Browser.
+**Prüfung** – SchILD-NRW 3 öffnet denselben Bestand wie der Browser.
 
-## 5. Die benötigten Werkzeuge ergänzen
+## 4. Ausgangsstand sichern
 
-Richte [SchILD2 und das Migrationstool](./schild2.md) sowie [DBeaver](./dbeaver.md) ein. Ergänze SVWS-Tools nur für konkrete Aufgaben; die [Tool-Anleitung](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/) unterscheidet statische Apps und zusätzliche Dienste.
+Bearbeite eine typische Aufgabe. Sichere den Bestand und stelle ihn in einem entbehrlichen Testschema wieder her. Bewahre Verbindungsangaben und Zugangsdaten passend geschützt auf.
 
-## 6. Den Ausgangsstand abnehmen
+## Ergänzungen
 
-Teste eine Anmeldung, eine typische Bearbeitung und eine Wiederherstellung in einem entbehrlichen Testschema. Dokumentiere die Verbindungen. Mit [Wartung und Rücksetzen](./wartung.md) hältst Du den Platz anschließend einsatzbereit.
-
-Die erhaltenen [Installationsbilder](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) können bei der Orientierung helfen. Sie sind kein Nachweis, dass jeder frühere Dialog mit Deinem Release übereinstimmt.
+- [SchILD2 und Migrationstool](./schild2.md) für die Untersuchung von Ausgangsbeständen.
+- [DBeaver und Access](./dbeaver.md) für Datenanalyse und geeignete MDB-Aufgaben.
+- [Wartung und Rücksetzen](./wartung.md) für den laufenden Testplatz.
+- [Installationsbilder im Archiv](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) als ergänzende ältere Bildfolgen.
+- [Schulungsraum einrichten](/Fachberatung_Anleitungen/Test-_und_Schulungsserver/) für mehrere Teilnehmende.

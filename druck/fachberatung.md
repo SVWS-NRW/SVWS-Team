@@ -1,5 +1,5 @@
 ---
-title: Fachberatung – Druckansicht
+title: Lösungen – Druckansicht
 search: false
 outline: false
 prev: false
@@ -10,6 +10,6 @@ next: false
 import { data } from './fachberatung.data.mjs'
 </script>
 
-# Fachberatung – Druckansicht
+# Lösungen – Druckansicht
 
 <SectionPrintBook :articles="data.articles" :title="data.title" />

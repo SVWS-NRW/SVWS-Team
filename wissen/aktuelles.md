@@ -1,33 +1,18 @@
-# Aktuelle Hinweise einordnen
+# Aktuelles
 
-Hier findest Du den gemeinsamen Einstieg für Fachberatung und Moderation. Maßgeblich ist, **was sich für Deine Aufgabe und Deine Programmversion ändert**. Eine ältere Fortbildungsseite mit „aktuell“ im Titel ist kein laufender Nachrichtenkanal.
-
-## Neueste veröffentlichte Hinweise
+## Neue Hinweise aus der Praxis
 
 <LatestTips />
 
-Die Auswahl kommt automatisch aus den beiden gepflegten Datumstabellen. Sie ist kein vollständiger Release-Ticker. [Alle SchILD-Tipps](./schild-tipps.md) und [alle SVWS-Tipps](./svws-tipps.md) bleiben erreichbar.
+[Alle SchILD-Hinweise](./schild-tipps.md) · [Alle SVWS-Hinweise](./svws-tipps.md)
 
-## Vor einer Beratung oder Schulung
+## Versionen und Änderungen
 
-1. Notiere die eingesetzten Versionen von SVWS-Server, SchILD und benötigten Tools.
-2. Prüfe die offiziellen [Releases und Fehlermeldestellen](./links.md#entwicklung-fehlermeldungen).
-3. Suche in den [SchILD-Tipps](./schild-tipps.md), [SVWS-Tipps](./svws-tipps.md) oder nach dem [Fehlerbild](/beratung/probleme).
-4. Prüfe, ob ein Hinweis genau Deine Ausgangslage betrifft. Übernimm ältere Übergangslösungen nicht pauschal.
-5. Leite einen nötigen Handlungsbedarf an die betroffene Moderation bzw. Schule weiter und erprobe Änderungen zunächst am Teststand.
-
-## Was eine gute Meldung enthält
-
-| Angabe | Beispiel für die Form |
+| Programm | Veröffentlichungen |
 | --- | --- |
-| Betroffen | Programm, Version und gegebenenfalls Schulform |
-| Änderung oder Problem | Konkrete Handlung und beobachtete Wirkung |
-| Handlungsbedarf | Prüfen, vorbereitet ändern oder zunächst abwarten – mit Begründung |
-| Geltungsbereich | Seit wann bekannt, geprüft bzw. gegebenenfalls behoben |
-| Dauerhafte Erklärung | Link zum zuständigen Fachartikel oder nachvollziehbaren Fehlerbericht |
+| SVWS-Server | [Releases und Änderungen](https://github.com/SVWS-NRW/SVWS-Server/releases) |
+| SchILD-NRW 3 | [Versionen und Downloads](https://www.svws.nrw.de/) · [Testversionen](https://github.com/SVWS-NRW/Schild3-BetaTest/releases) |
 
-Diese Übersicht ist kein automatisch vollständiger Release-Ticker. Neue geprüfte Hinweise werden über die [Teamkommunikation](/neu-im-team/kommunikation) und die vorhandenen Sammlungen erschlossen.
+Die Hinweise enthalten auch ältere Fehlerbilder. Datum und genannte Programmversion stehen beim jeweiligen Beitrag.
 
-## Unterschiede zwischen SchILD2 und SchILD3
-
-Die [Umstiegsorientierung](./umstieg.md) bündelt die zuständigen Dokumentationen und das vorhandene Übungsmaterial. Dauerhafte Bedienungsbeschreibungen sollen in der SchILD3-Dokumentation gepflegt werden.
+Interne Termine und Einwahlinformationen erhältst Du über die [Teamkommunikation](/neu-im-team/kommunikation). [Fortbildungen](/fortbildung/) und [Convention](/fortbildung/convention) findest Du unter Team.

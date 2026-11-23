@@ -1,8 +1,8 @@
-# Hier kommt dein SchILD-Tipp der Woche...
+# Statistikprüfung meldet Stapelüberlauf
 
+**Veröffentlicht am 14.09.2026.**
 
-Wusstest du schon, dass beim Anstoßen der Statistikprüfung in Schild3 oft die Fehlermeldung **"Rekursion zu tief, Stapelüberlauf"** erscheint?
-
+Prüfe den Ordner Statistik im SVWS-Arbeitsverzeichnis und die Lese-, Schreib- und Änderungsrechte für Benutzer und System.
 
 Konkret öffnet sich dieses Fehlerfenster nach dem Aufruf unter Verwaltung → Statistik für IT.NRW → Gesamtprüfung der Daten:
 
@@ -19,9 +19,7 @@ Dafür benötigen sowohl der Benutzer als auch das System selbst Lese-, Schreib-
 Am einfachsten ist es, den Ordner "Statistik" manuell im SVWS-Arbeitsverzeichnis anzulegen. Anschließend sollten die Berechtigungen des Ordners und der übergeordneten Ordner überprüft werden, da die Berechtigungen ggf. von diesen übernommen werden. Sowohl der Benutzer als auch das System müssen über Lese-, Schreib- und Änderungsrechte verfügen.
 
 ### Hinweis
-Für die erstmalige Statistikprüfung mit Schild3 müssen die .dll-Dateien neu registriert werden, da diese sonst für die Prüfroutine nicht gefunden werden. Das funktioniert genauso wie in Schild2: 
+Für die erstmalige Statistikprüfung mit Schild3 müssen die .dll-Dateien neu registriert werden, da diese sonst für die Prüfroutine nicht gefunden werden. Das funktioniert genauso wie in Schild2:
 https://schulverwaltungsinfos.nrw.de/svws/forum/viewtopic.php?f=26&t=17
 
-
-:back: [Zurück zu den Tipps der Woche](./../index.md)   
-
+[Weitere Lösungen](/beratung/) · [Hinweise nach Datum](/wissen/aktuelles)

@@ -47,7 +47,7 @@ for (const [section, items] of Object.entries(sections)) walk(items, section)
 for (const [prefix, section] of routes) {
   if (!sections[section]) errors.push(`Unbekannter Bereich ${section} für ${prefix}`)
 }
-for (const required of ["team","schulungen","testdaten","beratung","fortbildung","wissen","hilfe"]) {
+for (const required of ["aktuell","beratung","testdaten","schulungen","team","hilfe"]) {
   if (!sections[required]) errors.push(`Fehlender Navigationsbereich: ${required}`)
 }
 // Generated section wrappers add one shared heading, not another topic level.

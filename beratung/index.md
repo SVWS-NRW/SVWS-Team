@@ -1,35 +1,47 @@
-# Fachberatung
+# Lösungen
 
-<span id="beratung-umstieg"></span>
-<span id="aktuelle-schwerpunkte"></span>
-<span id="warum-der-umstieg-jetzt-so-viel-unterstutzung-braucht"></span>
-<span id="bewahrte-materialien-nutzen"></span>
-
-Du unterstützt Schulen bei Bedienungsfragen, Einstellungen, Installation und Umstieg. Beginne beim Anliegen der Schule. Du musst nicht schon beim ersten Gespräch wissen, welches technische Werkzeug die Lösung liefert.
-
-## Was möchtest Du tun?
-
-| Deine Aufgabe | Dein Einstieg |
+| Fehlerbild oder Aufgabe | Direkt weiter |
 | --- | --- |
-| Mich für künftige Fälle vorbereiten | [Beratungsarbeitsplatz vorbereiten](./arbeitsplatz.md) |
-| Einen neuen Fall übernehmen | [Supportfall Schritt für Schritt bearbeiten](./ablauf.md) |
-| Bei einer Installation oder Migration helfen | [Installation und Migration begleiten](./installation.md) |
-| Eine übermittelte Datenbank untersuchen | [Datenbankfall bearbeiten](/umgebungen/lokale-analyse) |
-| Ein bekanntes Fehlerbild suchen | [Probleme und Lösungen](./probleme.md) |
-| Einen offenen Fall weitergeben | [Ergebnis prüfen und Anfrage vorbereiten](./anfrage-vorbereiten.md) |
+| Server oder SchILD-NRW 3 startet nicht | [Installation und Verbindungen](/beratung/installation) |
+| Browser funktioniert, SchILD-Verbindung scheitert | [Verbindungen prüfen](/beratung/systemueberblick) |
+| Migration scheitert oder Daten fehlen | [Migrationsfehler eingrenzen](/beratung/migration) |
+| Fehler hängt an einem konkreten Datenbestand | [Datenbank an einer Kopie untersuchen](/umgebungen/lokale-analyse) |
+| Fall an die Landesfachberatung weitergeben | [Fallcheckliste und Rückfrage](/beratung/anfrage-vorbereiten) |
 
-## Der Arbeitsweg
+## Migration & Datenbanken
 
-**Anliegen verstehen → Rahmenbedingungen klären → passenden Unterstützungsweg wählen → Ursache eingrenzen → Ergebnis prüfen → dokumentieren oder weitergeben.**
+- [Datenbankmigration](/Tipp_der_Woche/SchILD-Tipp_der_Woche/datenbankmigration)
+- [Warnung beim Programmstart: Schuljahresabschnitte](/Tipp_der_Woche/SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt)
+- [SQL-Dump mit DBeaver importieren](/Tipp_der_Woche/SVWS-Hack_der_Woche/dbeaver-dump)
+- [Datenbankprüfung und Reparatur](/Fachberatung_Anleitungen/DBReparatur/)
 
-Telefon, Fernunterstützung, Schulbesuch und Analyse einer Kopie ergänzen sich. Fordere nicht automatisch eine Datenbank an, wenn sich eine Bedienungsfrage bereits gemeinsam klären lässt.
+## Schülerdaten, Kataloge & Statistik
 
-## Zuständigkeit und Unterstützung
+- [Ehemalige Schülerinnen und Schüler](/Tipp_der_Woche/SchILD-Tipp_der_Woche/ehemalige)
+- [Straßenkatalog](/Tipp_der_Woche/SchILD-Tipp_der_Woche/strassenkatalog)
+- [Kataloge im SVWS-Client](/Tipp_der_Woche/SVWS-Hack_der_Woche/kataloge)
+- [Statistikprüfung: Stapelüberlauf](/Tipp_der_Woche/SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf)
+- [Sichtbare Spalten im Lehrercontainer](/Tipp_der_Woche/SchILD-Tipp_der_Woche/lehrerspalten)
 
-Die Fachberatung ist erste Anlaufstelle ihrer Schulen. Die [Rollenübersicht](/neu-im-team/rollen) erklärt die Zusammenarbeit mit Koordination und Landesfachberatung.
+## Leistungen, Zeugnisse & Exporte
 
-**IT-Dienstleister, die mehrere Schulen betreuen, werden durch die Landesfachberatung unterstützt.** Dieses Portal beschreibt dafür keine eigenen Betriebsmodelle. Verweise solche Anliegen an die zuständige Landesfachberatung. Sie bietet außerdem eine Online-Sprechstunde am Montag an; Zielgruppe, Zugang und aktuelle Teilnahmeinformationen klärst Du über die [Teamkommunikation](/neu-im-team/kommunikation). Hier wird keine unbestätigte Uhrzeit oder öffentliche Einwahl veröffentlicht.
+- [Leistungsübersichten](/Tipp_der_Woche/SchILD-Tipp_der_Woche/leistungsuebersicht)
+- [Zeugnisreports](/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisreports)
+- [Rechtsbelehrung auf Zeugnissen](/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung)
+- [ZP10-Export](/Tipp_der_Woche/SchILD-Tipp_der_Woche/zp10Export)
+- [Telli-Export](/Tipp_der_Woche/SchILD-Tipp_der_Woche/telliExport)
+- [Konferenzübersicht](/Tipp_der_Woche/SVWS-Hack_der_Woche/konferenzmodul)
 
-## Wenn Dir Wissen fehlt
+## Oberstufe & Werkzeuge
 
-Wähle einen [Lernweg](/fortbildung/lernwege) und arbeite zunächst mit Testdaten. Ein unbekannter Installationsfall ist ein Anlass zur Rückfrage, nicht zum Ausprobieren am produktiven System. Die technische Einrichtung findest Du unter [Arbeitsplatz vorbereiten](/beratung/arbeitsplatz).
+- [Fehler in der Oberstufen-App](/Tipp_der_Woche/SVWS-Hack_der_Woche/bugInOberstufenapp)
+- [Fehlerhafte Kursarten DFG und DFK](/Tipp_der_Woche/SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK)
+- [Versionsbezogener Bugfix](/Tipp_der_Woche/SVWS-Hack_der_Woche/bugfix122)
+- [SVWS-Tools](/Tipp_der_Woche/SVWS-Hack_der_Woche/tools)
+
+
+## Weitere Fachthemen
+
+[API und Reporting](/Fachberatung_Anleitungen/) · [SchILD2 zu SchILD3](/wissen/umstieg)
+
+Für den Einstieg in die Beratung gibt es [Deinen ersten Beratungsfall](/neu-im-team/beratung).

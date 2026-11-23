@@ -1,7 +1,8 @@
-# Hier kommt dein SchILD-Tipp der Woche...
+# Zeugnisreports für SchILD-NRW 3 herunterladen
 
+**Veröffentlicht am 02.02.2026.**
 
-Wusstest du schon, dass die **Zeugnisreports für Schild3 im Github** bereitstehen?
+Die [Downloadseite für SchILD-NRW-3-Reports](https://www.svws.nrw.de/reports-schild-nrw-3) führt zu den Zeugnisreports auf GitHub.
 
 Der Download der Zeugnisse ist - anders als bei Schild2 - nur über Github möglich. Auf der Homepage findet ihr hier die entsprechenden Download-Links.
 
@@ -10,17 +11,14 @@ Der Download der Zeugnisse ist - anders als bei Schild2 - nur über Github mögl
 | ![Link zu den Zeugnispaketen](./graphics/schildtipp_Zeugnisreports1.png)  |
 |---------------|
 
-
-Über den Link kommt ihr direkt zum passenden Zeugnispaket.    
+Über den Link kommt ihr direkt zum passenden Zeugnispaket.
 Nach einem Klick auf die zip-Datei, findet ihr diese im Download-Ordner. Ein Account ist dazu nicht notwendig.
 
 | ![Link zu den Zeugnispaketen](./graphics/schildtipp_Zeugnisreports2.png)  |
 |---------------|
 
-**Hinweis zu den BK-Zeugnissen**    
+**Hinweis zu den BK-Zeugnissen**
 An dem vollständigen Schild3-Zeugnis-Release wird derzeit noch gearbeitet. Nutzt solange die Reports von dieser Seite für den Zeugnisdruck. Dort findet ihr auch bereits gesonderte Schild3-Zeugnisse für Anlage D.
 http://github.com/SVWS-NRW/Schild-NRW-BK-Zeugnisse/releases/tag/v1.0.75
 
-
-:back: [Zurück zu den Tipps der Woche](./../index.md)   
-
+[Weitere Lösungen](/beratung/) · [Hinweise nach Datum](/wissen/aktuelles)

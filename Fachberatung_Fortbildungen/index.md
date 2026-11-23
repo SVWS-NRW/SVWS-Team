@@ -1,28 +1,6 @@
-# Fortbildungsarchiv & bisherige Angebote {#mikrofortbildungen-fur-fachberater}
+# Fortbildungsarchiv {#mikrofortbildungen-fur-fachberater}
 
-::: info Einordnung der Termine
-Die folgende Terminreihe von Februar bis Juli 2026 ist abgeschlossen. Die Materialien bleiben zum Nachlesen erhalten. Angebote „auf Anfrage“ können weiterhin über das Team angefragt werden. Die zentrale Übersicht findest Du unter [Fortbildung & Austausch](/fortbildung/).
-:::
-
-### Ablauf der Fortbildungen:
-
-+ Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater, sowie Moderatorinnen und Moderatoren. 
-
-+ Der Link zum Videomeeting wird per E-Mail an alle zugesendet.
-
-+ Bei den meisten Fortbildungen kannst Du ohne Anmeldung direkt teilnehmen.
-
-+ Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.
-
-+ Im Anschluss gibt es Raum für Fragen und Anregungen.
-
-+ Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
-
-## Wie Du die Materialien nutzt
-
-Die verlinkten Seiten sind überwiegend Veranstaltungsunterlagen mit Agenda und Begleitlinks. Sie sind nicht automatisch vollständige Anleitungen. [Lernwege](/fortbildung/lernwege) führen zu praktisch nutzbaren Schrittfolgen; der [Inhaltsstand](/fortbildung/inhaltsstand) benennt offene Nachbereitungen. Datum und damalige Themen bleiben unten erhalten.
-
-## Übersicht - Fortbildungen
+Materialien zur abgeschlossenen Terminreihe von Februar bis Juli 2026. Die Einzelbeiträge enthalten Agenden und Begleitlinks. Aktuelle Angebote findest Du unter [Interne Fortbildung](/fortbildung/).
 
 | Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
 | ---------- | ------------- | ------------- | ------------- |
@@ -41,7 +19,3 @@ Die verlinkten Seiten sind überwiegend Veranstaltungsunterlagen mit Agenda und 
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | -- | -- |
 | [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- |
 | [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- |
-
-<!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
-
-<!-- This content will not appear in the rendered Markdown -->

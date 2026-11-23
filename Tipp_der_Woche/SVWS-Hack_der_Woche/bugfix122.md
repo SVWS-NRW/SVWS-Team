@@ -1,8 +1,12 @@
-# Hier kommen die SVWS-News der Woche:
+# Fehlende Betriebszuordnungen nach BK-Migration
 
+**Veröffentlicht am 16.02.2026.**
+
+Der Hinweis vom Februar 2026 beschreibt einen Migrationsfehler bei der Zuordnung von Betrieben zu Schülern und den damals bereitgestellten Server-Bugfix.
+
+::: details Ursprünglicher Hinweis zum damaligen Stand
 
 Ist dir schon aufgefallen, dass nach der Migration einer BK-Datenbank die **Betriebe bei den Schülern fehlen**?
-
 
 Genauer: Die Zuordnung der Betriebe zu den Schülern wurde bei der Migration nicht berücksichtigt.
 
@@ -19,4 +23,7 @@ https://github.com/SVWS-NRW/SVWS-Server/releases
 ## Warum ist das erst so spät aufgefallen?
 + Die Betriebe werden in der Regel nur von BKs gepflegt
 + Bisher ist uns kein BK bekannt, das produktiv mit Schild3 arbeitet
-+ Unsere Schulungsdatenbanken enthalten aufgrund der Anonymisierung keine Betriebe bei den Schülern 
++ Unsere Schulungsdatenbanken enthalten aufgrund der Anonymisierung keine Betriebe bei den Schülern
+
+
+:::

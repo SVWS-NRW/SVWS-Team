@@ -1,11 +1,7 @@
 # Fortbildung: Umstieg auf SchILD-NRW 3 {#fortbildung-umstieg-von-schild2-zu-schild3-was-andert-sich}
 
 
-::: info Veranstaltungsunterlagen – keine vollständige Anleitung
-Diese Seite hält Themen und gegebenenfalls Begleitlinks einer Fortbildung fest. Die mündliche Demonstration ist damit nicht vollständig dokumentiert. Frühere Aussagen zum „aktuellen“ Stand gelten für den damaligen Zusammenhang.
-
-Für die praktische Arbeit: [Umstiegsorientierung](/wissen/umstieg). Fehlende Ausarbeitungen stehen im [Inhaltsstand](/fortbildung/inhaltsstand).
-:::
+**Archiv – Veranstaltungsunterlagen.** Praktische Anleitung: [Umstiegsorientierung](/wissen/umstieg).
 
 Der grundlegende Arbeitsablauf wurde in Schild3 analog zu Schild2 umgesetzt. An einigen Stellen gibt es Unterschiede, scheinbar fehlende Funktionen oder Felder, die in Schild2 noch vorhanden waren oder umbenannt wurden.
 

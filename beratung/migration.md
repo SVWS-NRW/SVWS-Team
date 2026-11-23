@@ -1,45 +1,29 @@
-# Migrationsprobleme eingrenzen
+# Migrationsfehler eingrenzen
 
-<span id="_1-fehler-und-ausgangsdaten-festhalten"></span>
-<span id="_2-eine-neue-schild-nrw-2-access-datenbank-als-zwischenstufe"></span>
-<span id="_3-fehleintrage-im-ausgangsbestand-untersuchen"></span>
-<span id="_4-abschnittstabellen-nach-der-migration-prufen"></span>
-<span id="_5-ergebnis-prufen-oder-fall-weitergeben"></span>
+Arbeite an einer Kopie und halte Quelle, Werkzeug, Versionen und Protokoll fest.
 
-## Ziel
+## Fehler zuordnen
 
-Du erkennst, ob das Problem im SchILD2-Ausgangsbestand, bei der Übernahme oder erst im SVWS-Ergebnis liegt. Arbeite mit unverändert aufbewahrter Quelle und einer getrennten Untersuchungskopie.
-
-## 1. Den Vorgang benennen
-
-| Ausgangslage | Was untersucht wird |
+| Ausgangslage | Nächster Schritt |
 | --- | --- |
-| MDB lässt sich schon in SchILD-NRW 2 nicht öffnen | Verbindung, Format, Passwort oder Dateischaden |
-| SchILD2-Migrationstool scheitert | Überführung zwischen SchILD2-Beständen |
-| SVWS-AdminClient meldet einen Migrationsfehler | Übernahme in das SVWS-Datenmodell |
-| SQLite-Sicherung lässt sich nicht wiederherstellen | Import und Versionsverträglichkeit eines SVWS-Backups |
-| Migration endet, Daten oder Funktionen fallen danach auf | Fachlicher Vergleich von Quelle und Ergebnis |
+| MDB öffnet schon in SchILD-NRW 2 nicht | Verbindung, Dateiformat und Passwort prüfen; bei Dateischäden [DBeaver und Access](/umgebungen/dbeaver) |
+| SchILD2-Migrationstool scheitert | [Quell- und Zielbestand vorbereiten](/umgebungen/schild2) |
+| SVWS-AdminClient meldet einen Migrationsfehler | Migrationsprotokoll prüfen und [AdminClient-Anleitung](https://doku.svws-nrw.de/adminclient/anleitungen/kurzanleitung_migration.html) heranziehen |
+| SQLite-Sicherung wird nicht wiederhergestellt | [Importweg](/umgebungen/testdaten), Format und Versionsverträglichkeit prüfen |
+| Übernahme endet, Daten oder Funktionen fallen danach auf | Quelle und Ergebnis am betroffenen Fall vergleichen |
 
-Notiere Programmversionen, Schulform, Schritt und genaue Meldung. Sichere das relevante Protokoll; [Logdateien](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/) bieten ergänzende Orientierung.
+## Migrationswege unterscheiden
 
-## 2. Den SchILD2-Ausgangsbestand prüfen
+| Quelle und Ziel | Werkzeug |
+| --- | --- |
+| SchILD2-Bestand in einen anderen SchILD2-Bestand | SchILD2-Migrationstool |
+| SchILD2-Bestand in ein SVWS-Schema | SVWS-AdminClient |
+| SVWS-Sicherung in ein SVWS-Schema | SQLite-Wiederherstellung im AdminClient |
 
-Kann die Kopie in SchILD-NRW 2 geöffnet werden? Ist der betroffene Arbeitsablauf dort möglich? Prüfe die [Vorbereitung von SchILD2 und Migrationstool](/umgebungen/schild2).
+Eine Überführung in einen neuen SchILD2-Bestand kann bei bestimmten Ausgangsproblemen helfen. Prüfe den Zwischenstand in SchILD-NRW 2, bevor Du die SVWS-Migration wiederholst.
 
-Die Überführung in einen neuen SchILD2-Access-Bestand kann bei bestimmten Ausgangsproblemen helfen. Sie ist nicht bereits die Migration zum SVWS-Server und garantiert keine Reparatur jedes Datenfelds.
+## Fehler nach der Übernahme
 
-## 3. Bei Dateischäden den passenden Weg wählen
+Bei Abschnittsproblemen helfen der [Hinweis zur Startwarnung](/Tipp_der_Woche/SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt) und das [SQL-Fallbeispiel](/Fachberatung_Anleitungen/DBReparatur/). Die dort verwendeten IDs beziehen sich auf den beschriebenen Bestand.
 
-[DBeaver und Access](/umgebungen/dbeaver) trennt Datenzugriff von Reparatur. Wenn Access für eine erforderliche Reparatur fehlt, dokumentiere den Fall und vereinbare Unterstützung. Die frühere [Fortbildungsseite zur MDB-Reparatur](/Fachberatung_Fortbildungen/ReparaturMDB/) enthält Themen, aber keine vollständige Reparaturanleitung.
-
-## 4. Den SVWS-Versuch nachvollziehen
-
-Nutze die aktuelle [AdminClient-Anleitung](https://doku.svws-nrw.de/adminclient/anleitungen/kurzanleitung_migration.html). Bestimme das entbehrliche Zielschema ausdrücklich und prüfe das Protokoll. Erzeuge nicht nebenbei mehrere unbekannte Zwischenstände.
-
-## 5. Auffälligkeiten fachlich prüfen
-
-Vergleiche den betroffenen Fall mit der Quelle und dem erwarteten Ergebnis. Für Abschnittsprobleme gibt es den [versionsbezogenen Hinweis](/Tipp_der_Woche/SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt) und ein [konkretes SQL-Fallbeispiel](/Fachberatung_Anleitungen/DBReparatur/). Dessen IDs sind keine allgemeine Korrekturvorschrift.
-
-## 6. Prüfen oder weitergeben
-
-Wiederhole die ursprüngliche Aufgabe. Dokumentiere Quelle, gegebenenfalls SchILD2-Zwischenstand, SVWS-Ergebnis und alle Änderungen getrennt. Bleiben Bezüge oder notwendige Korrekturen unklar, nutze [Ergebnis und Weitergabe](./anfrage-vorbereiten.md).
+Für weitere Untersuchungen nutze die [lokale Analyse](/umgebungen/lokale-analyse). Mit der [Fallcheckliste](./anfrage-vorbereiten.md) gibst Du offene Befunde an die Landesfachberatung weiter.
